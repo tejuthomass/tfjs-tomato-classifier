@@ -1,0 +1,696 @@
+path,dataset,split,label,leaf_id
+data/plantvillage/Healthy/66778100-7006-4592-9704-90ea0d7131dd___RS_HL 9740.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9740
+data/plantvillage/Healthy/1352e7ea-9a81-44fb-98e9-25ee6c701753___RS_HL 0549.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0549
+data/plantvillage/Healthy/0576ef4b-c843-4dfb-b148-c917f7d605b7___GH_HL Leaf 299.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 299
+data/plantvillage/Healthy/75a4f049-e99c-4666-845f-7b1577dbd662___RS_HL 9955.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9955
+data/plantvillage/Healthy/2bce59d3-c971-46da-8bb5-bc36b712e208___GH_HL Leaf 257.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 257
+data/plantvillage/Healthy/28e62e2d-8aba-48df-9eff-3d70a5b7775d___RS_HL 9870.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9870
+data/plantvillage/Healthy/24336aa8-a0ad-404e-9669-3661d9920aec___GH_HL Leaf 435.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 435
+data/plantvillage/Healthy/16ed4e23-5218-4e8b-85df-86a7069a675d___GH_HL Leaf 519.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 519
+data/plantvillage/Healthy/74579097-2dd7-4d15-8f73-f09e7d919b51___RS_HL 9773.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9773
+data/plantvillage/Healthy/10b36861-6a00-41d9-9858-e00adcfb17e7___RS_HL 0235.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0235
+data/plantvillage/Healthy/6c4da977-110b-4191-abfa-faa22ccc7dc7___RS_HL 9848.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9848
+data/plantvillage/Healthy/757dc01f-63b5-47aa-b15d-37cbb3f8e76c___GH_HL Leaf 184.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 184
+data/plantvillage/Healthy/8ea80484-4e70-4a51-bbc2-213cfedd4f59___GH_HL Leaf 341.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 341
+data/plantvillage/Healthy/56821d0b-8d8c-47ed-9754-3c16c9c97cb8___GH_HL Leaf 286.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 286
+data/plantvillage/Healthy/0eb4ba9a-6626-4e46-b561-c226b495073d___RS_HL 9862.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9862
+data/plantvillage/Healthy/5f11bef5-6b09-4a9c-b0e1-6dfdd16f42d3___GH_HL Leaf 457.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 457
+data/plantvillage/Healthy/4463e5e9-8afc-4dfd-9317-3013a538f2c8___GH_HL Leaf 308.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 308
+data/plantvillage/Healthy/06639369-2e38-48cc-a27a-5b90388d227e___RS_HL 0389.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0389
+data/plantvillage/Healthy/063d05a7-1a53-4631-818d-44b34126974e___GH_HL Leaf 453.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 453
+data/plantvillage/Healthy/0f93b04b-73fc-4c5c-98d6-35842cafdd25___RS_HL 0278.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0278
+data/plantvillage/Healthy/237ec7d7-d96f-434d-8a94-250ec92c8e86___RS_HL 0457.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0457
+data/plantvillage/Healthy/264a08a7-74a4-4492-aff1-8a3ab8b35c46___GH_HL Leaf 314.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 314
+data/plantvillage/Healthy/502bbd0a-8c84-4723-8e16-446655d5563d___RS_HL 0423.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0423
+data/plantvillage/Healthy/6200ddc6-ea83-42e0-9936-4f82cfa14a1f___RS_HL 9976.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9976
+data/plantvillage/Healthy/06040967-7b02-43b5-a3fc-4490a9a7ded6___RS_HL 0508.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0508
+data/plantvillage/Healthy/598606b2-3e32-4d1d-b86e-042a14cd24d0___GH_HL Leaf 504.2.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 504
+data/plantvillage/Healthy/20249fbb-29c5-40fb-985e-5a0b9f0e67b1___RS_HL 0117.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0117
+data/plantvillage/Healthy/711640b7-c013-4982-a5d9-c2d1d570048a___GH_HL Leaf 378.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 378
+data/plantvillage/Healthy/6883c31a-78b4-406a-9605-b6b31e0932cc___RS_HL 0037.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0037
+data/plantvillage/Healthy/6f489b75-4fca-4aae-834d-409db790224b___GH_HL Leaf 205.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 205
+data/plantvillage/Healthy/9b2a3f9a-f450-471d-928c-270126c8602a___RS_HL 9758.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9758
+data/plantvillage/Healthy/438c4ac5-5409-4859-9fe4-3077af7425b2___RS_HL 0157.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0157
+data/plantvillage/Healthy/23ffcd05-2b2a-48d2-a694-5c292e910b66___RS_HL 9842.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9842
+data/plantvillage/Healthy/48a36957-9e8e-4a17-b789-e775ea4bc523___GH_HL Leaf 254.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 254
+data/plantvillage/Healthy/5ecf00da-161c-4e2f-a525-b9223adce0b6___GH_HL Leaf 252.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 252
+data/plantvillage/Healthy/2c741e7d-d03b-4903-8e42-1e43f5ad7286___RS_HL 0131.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0131
+data/plantvillage/Healthy/82a343d3-1a57-4190-b0d7-8e8c88e832a7___GH_HL Leaf 306.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 306
+data/plantvillage/Healthy/8ad09f74-a565-413a-bcf5-21cf58a4db3a___RS_HL 0173.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0173
+data/plantvillage/Healthy/01700b46-3800-46c6-ab81-09a5f50af525___RS_HL 0108.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0108
+data/plantvillage/Healthy/7919a8c4-0eb1-477f-8534-fc8841245cf7___RS_HL 0538.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0538
+data/plantvillage/Healthy/824d057f-080b-4b9e-ae96-e91d5bdf3b98___RS_HL 0380.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0380
+data/plantvillage/Healthy/1a308834-fdd7-4121-ae03-5736d8d52e26___RS_HL 9689.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9689
+data/plantvillage/Healthy/6e583c78-1f36-4d5e-bc0e-24f3c76a2c1d___RS_HL 0284.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0284
+data/plantvillage/Healthy/9ae93bcc-5cfb-4407-a711-de800fb2853a___GH_HL Leaf 519.4.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 519
+data/plantvillage/Healthy/381a69d2-9a7d-40e2-adcb-9d7e362229e2___GH_HL Leaf 478.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 478
+data/plantvillage/Healthy/973c9431-f521-462d-82fa-442196087ca8___GH_HL Leaf 204.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 204
+data/plantvillage/Healthy/1a02fa87-a194-482e-b4ac-8dec2064d793___RS_HL 0022.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0022
+data/plantvillage/Healthy/23467438-6237-4b34-acde-80a3129e4b5d___GH_HL Leaf 187.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 187
+data/plantvillage/Healthy/79debbff-9c0f-4a5c-a4c7-4b2bc97406dc___RS_HL 0244.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0244
+data/plantvillage/Healthy/377ffc94-d068-4ba0-80cc-dea49edf094d___RS_HL 0367.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0367
+data/plantvillage/Healthy/9b8f108a-010b-4b8b-98ea-b30cbf62b805___GH_HL Leaf 349.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 349
+data/plantvillage/Healthy/0f809e80-ee2b-4ad4-9a80-50d789298d48___GH_HL Leaf 192.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 192
+data/plantvillage/Healthy/3e2fa71c-73a6-48f5-9175-4d43a078115a___RS_HL 0159.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0159
+data/plantvillage/Healthy/1006c73b-19f8-4771-9fe5-3fc4908e8da3___RS_HL 0557.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0557
+data/plantvillage/Healthy/3b1ba616-6a8f-44e9-948f-5c056eb565c8___RS_HL 9980.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9980
+data/plantvillage/Healthy/8811ef44-071b-430a-a0a4-989bf7668582___GH_HL Leaf 193.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 193
+data/plantvillage/Healthy/388aca21-8d73-460f-8f58-a876f294f98e___GH_HL Leaf 463.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 463
+data/plantvillage/Healthy/622044a4-97d7-46a1-a702-2f586bb04a78___GH_HL Leaf 334.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 334
+data/plantvillage/Healthy/2b14b93f-0664-4b7f-93fa-b7d3df03dc06___GH_HL Leaf 508.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 508
+data/plantvillage/Healthy/8295c1b4-7674-4b15-8a32-bb665a969e9b___RS_HL 9776.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9776
+data/plantvillage/Healthy/07cb5416-a029-467f-a306-252c2a64d2e6___RS_HL 0543.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0543
+data/plantvillage/Healthy/729ddd12-6c56-4f8d-bf95-ce3a066c9f29___GH_HL Leaf 188.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 188
+data/plantvillage/Healthy/495559bd-76e2-4c7a-935c-3ca1b4cf4b7b___GH_HL Leaf 180.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 180
+data/plantvillage/Healthy/54bb7e75-5b69-4777-ad28-6a676e5fd46d___RS_HL 9631.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9631
+data/plantvillage/Healthy/148e32de-8876-45d9-92c5-43c17d7292fa___RS_HL 0189.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0189
+data/plantvillage/Healthy/3e03aa27-3c0c-447c-87da-c3375ef47ead___RS_HL 9899.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9899
+data/plantvillage/Healthy/0d615a38-cfa4-45e4-b1b4-9977220e19ca___RS_HL 9815.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9815
+data/plantvillage/Healthy/579cec1c-8304-4b8c-84bb-be54a7e8c93f___GH_HL Leaf 367.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 367
+data/plantvillage/Healthy/2ea87b73-a52b-4a4c-938f-4ce06335d171___GH_HL Leaf 177.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 177
+data/plantvillage/Healthy/84cbb98b-5c2f-4367-8d78-52be491e66bd___GH_HL Leaf 336.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 336
+data/plantvillage/Healthy/6516ac80-5103-4d40-8200-af7dbdc239e7___GH_HL Leaf 202.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 202
+data/plantvillage/Healthy/63568703-0cfc-4d23-a5e1-e3393df2d2fc___RS_HL 0246.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0246
+data/plantvillage/Healthy/8ddc8178-4609-4267-bd55-028de3f759c8___RS_HL 0004.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0004
+data/plantvillage/Healthy/89ecd925-23ef-4bfe-8c55-cad05161aca2___GH_HL Leaf 236.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 236
+data/plantvillage/Healthy/3b87f866-1d80-4b22-99f8-108e315c9029___RS_HL 0394.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0394
+data/plantvillage/Healthy/5c23afc6-7236-4f07-adcd-61b1f69e3fb2___RS_HL 9801.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9801
+data/plantvillage/Healthy/1e8c2c4d-e787-45ff-87ac-56484ac8d3d4___GH_HL Leaf 472.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 472
+data/plantvillage/Healthy/6f6db1db-e3d1-4715-b46e-d0c64524da81___GH_HL Leaf 502.4.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 502
+data/plantvillage/Healthy/0c8c9c80-b7e0-47a7-81d3-b5a2174e545d___GH_HL Leaf 496.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 496
+data/plantvillage/Healthy/085cbe78-1d5c-45eb-877f-f409526032d5___GH_HL Leaf 469.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 469
+data/plantvillage/Healthy/69d1a3dc-54cd-4917-99b7-a315d7932edf___GH_HL Leaf 347.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 347
+data/plantvillage/Healthy/2503cc16-ff09-4437-9d4b-4316e2c32764___GH_HL Leaf 235.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 235
+data/plantvillage/Healthy/7b651761-da31-437a-be17-6e49912f622a___RS_HL 9703.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9703
+data/plantvillage/Healthy/2e4b9ef4-4ee8-4a50-aac0-de7c001f36d4___GH_HL Leaf 288.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 288
+data/plantvillage/Healthy/0d70d565-520e-474c-85c1-ab478c9f1d4b___GH_HL Leaf 203.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 203
+data/plantvillage/Healthy/8940094d-3432-4690-b2b7-9a5996a82f86___RS_HL 0426.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0426
+data/plantvillage/Healthy/99736699-54e4-4c14-bcce-6c249444e156___RS_HL 0165.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0165
+data/plantvillage/Healthy/8ab801ee-afee-4025-b5e8-5927465bd455___RS_HL 0212.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0212
+data/plantvillage/Healthy/10a4a3bd-e4c3-4e1c-94bd-cd0cd4e2705b___GH_HL Leaf 526.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 526
+data/plantvillage/Healthy/948816c8-6d72-47ad-bafc-e1448be3459f___RS_HL 9891.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9891
+data/plantvillage/Healthy/95abb641-4435-4531-88f6-a4a597c5ff33___RS_HL 9779.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9779
+data/plantvillage/Healthy/48e28bd8-2395-4541-a64c-fd6fab030f06___GH_HL Leaf 352.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 352
+data/plantvillage/Healthy/66534b5a-a6b7-46bb-bc09-a6bba9d9a61a___GH_HL Leaf 225.2.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 225
+data/plantvillage/Healthy/85487c92-0a3d-4dd9-a8f9-6d7b7e1887e6___RS_HL 9789.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9789
+data/plantvillage/Healthy/3be4b3ce-9fc7-4216-98f0-abd0faa9e45c___RS_HL 9945.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9945
+data/plantvillage/Healthy/1a972145-610d-4efe-96e7-e0253c4ece4a___GH_HL Leaf 237.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 237
+data/plantvillage/Healthy/3ca6e178-acee-4463-9d9f-aa1636eb9df6___RS_HL 0306.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0306
+data/plantvillage/Healthy/3ad1409d-5f43-469d-ab2a-fdffbd064f69___RS_HL 9931.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9931
+data/plantvillage/Healthy/223cb57a-b9b7-4c9a-b03e-701a8548ff4d___GH_HL Leaf 248.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 248
+data/plantvillage/Healthy/6b53630d-c9df-4e67-a490-b1835772d9a0___GH_HL Leaf 450.2.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 450
+data/plantvillage/Healthy/2b37cb9f-75c0-4e26-b82a-053525aa3d2d___RS_HL 9989.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9989
+data/plantvillage/Healthy/989c19ba-120b-472c-abe1-821da1b065d0___RS_HL 0280.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0280
+data/plantvillage/Healthy/6d0a4eb6-2a48-4fd6-9bb5-df05eeeb05a8___GH_HL Leaf 316.2.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 316
+data/plantvillage/Healthy/67fb6b30-9542-4606-9438-da3e96b6a2d7___GH_HL Leaf 213.2.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 213
+data/plantvillage/Healthy/0caff918-5807-40f2-b9e4-7dd34a7bab5d___RS_HL 0345.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0345
+data/plantvillage/Healthy/62c36cad-2102-451d-aca7-93f2e58e14ab___RS_HL 0481.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0481
+data/plantvillage/Healthy/8e117b61-5360-49c8-aa55-4e90f8fae129___GH_HL Leaf 261.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 261
+data/plantvillage/Healthy/1bd9f661-9b9c-4faf-80ab-86a8a64a8bc2___RS_HL 0271.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0271
+data/plantvillage/Healthy/541d6033-1cc7-4c86-a37b-423bc08d25a7___RS_HL 9973.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9973
+data/plantvillage/Healthy/724de01c-90cd-48e7-9360-749bb5b4713b___GH_HL Leaf 271.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 271
+data/plantvillage/Healthy/9c42acb9-3794-41d5-acc0-3c4949aa5e52___RS_HL 0442.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0442
+data/plantvillage/Healthy/1ad550a2-113e-440c-919d-85dff2f4de38___RS_HL 0331.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0331
+data/plantvillage/Healthy/49d1f23f-f284-4397-a0a3-295f4eae4343___RS_HL 0067.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0067
+data/plantvillage/Healthy/3e204d0d-cfdb-41a2-a68b-c3168305d099___GH_HL Leaf 441.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 441
+data/plantvillage/Healthy/2b6c6705-59ce-4afe-8ad1-62a367ea10e0___RS_HL 9994.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9994
+data/plantvillage/Healthy/668e811e-7b65-404e-9bc5-6519efb1c708___RS_HL 0160.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0160
+data/plantvillage/Healthy/6d6f479a-d165-46b3-95d8-43c4778c23f9___GH_HL Leaf 205.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 205
+data/plantvillage/Healthy/5876e77a-8598-418c-bae2-b7492c8e46bd___RS_HL 9859.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9859
+data/plantvillage/Healthy/23a4712e-8805-43f7-9ae4-655d1c4799b0___RS_HL 0619.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0619
+data/plantvillage/Healthy/6d2b6ab9-dd43-446a-ae14-0fc3fb12b9ca___GH_HL Leaf 265.2.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 265
+data/plantvillage/Healthy/33a75eb9-0745-4159-8c6e-3c4e4e418992___RS_HL 9767.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9767
+data/plantvillage/Healthy/87a77f4d-38bd-42dc-bdd3-5f2a1fa95ca7___GH_HL Leaf 469.3.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 469
+data/plantvillage/Healthy/7a73a7f9-27e3-4898-be48-97ddcaa094a4___GH_HL Leaf 381.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 381
+data/plantvillage/Healthy/7bb3bc73-873b-454c-82cf-a12cb0eb37fc___RS_HL 0206.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0206
+data/plantvillage/Healthy/09c0d78a-c9ca-4dc4-aa10-e25530890b20___GH_HL Leaf 424.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 424
+data/plantvillage/Healthy/25080b1c-6c0f-4b11-bb31-b5cfb2429395___GH_HL Leaf 238.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 238
+data/plantvillage/Healthy/83d9992c-b4ee-41f5-b3eb-792afd464f4e___RS_HL 9629.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9629
+data/plantvillage/Healthy/9a97f632-a6a4-4a7e-9a82-90167fdf8fff___GH_HL Leaf 181.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 181
+data/plantvillage/Healthy/824ae544-73d2-448a-b442-a8d2cdd83922___RS_HL 9900.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9900
+data/plantvillage/Healthy/3280ef48-8260-4a34-8e37-e079b74ed160___RS_HL 0392.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0392
+data/plantvillage/Healthy/410dea1e-836e-4d41-9039-9cfc2ec30c1e___GH_HL Leaf 318.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 318
+data/plantvillage/Healthy/2b4ab56e-4afa-4b0f-910a-3270e90c707c___RS_HL 0035.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0035
+data/plantvillage/Healthy/0b5cfce2-38fd-4984-8926-2d2911c48490___RS_HL 9733.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9733
+data/plantvillage/Healthy/22c48f3b-b49d-48b1-977e-e81d47c0f951___RS_HL 0369.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0369
+data/plantvillage/Healthy/5a7de071-ba6b-4a06-a3d4-eab0abdc6ecf___GH_HL Leaf 398.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 398
+data/plantvillage/Healthy/714b5b2d-482e-4276-8a06-ecf6a18bdb52___RS_HL 9941.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9941
+data/plantvillage/Healthy/32622151-b281-4603-9d7f-cf5df8201e4c___GH_HL Leaf 171.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 171
+data/plantvillage/Healthy/22e6625c-8075-428b-8356-fc6a97660efc___GH_HL Leaf 444.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 444
+data/plantvillage/Healthy/68e18442-2f1d-458d-b1ef-865c7390622c___RS_HL 9919.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9919
+data/plantvillage/Healthy/4f5dde42-a6ac-4886-8b9e-a944568ace95___RS_HL 0080.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0080
+data/plantvillage/Healthy/3f730857-e87b-4de0-bcbb-fdf0314e2250___GH_HL Leaf 245.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 245
+data/plantvillage/Healthy/674f82cb-c61c-4944-b8d6-1afb6212f96f___RS_HL 9646.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9646
+data/plantvillage/Healthy/4946ed4e-9003-485c-830f-1ef42bf78185___RS_HL 0191.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0191
+data/plantvillage/Healthy/1732045f-a451-4325-aa86-717a8cbdaf02___RS_HL 9698.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 9698
+data/plantvillage/Healthy/2b1cbc53-a62b-4daf-b233-8fc1d8d8c099___RS_HL 0296.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0296
+data/plantvillage/Healthy/9be696de-84ac-4275-b9b0-a6a54e8a1813___GH_HL Leaf 244.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 244
+data/plantvillage/Healthy/29265f8d-86ff-4de1-b1ad-e33a64b189dc___RS_HL 0264.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0264
+data/plantvillage/Healthy/7627db62-eca7-44fd-8b81-b818575821aa___GH_HL Leaf 356.1.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 356
+data/plantvillage/Healthy/991e23a3-fcbf-492b-8972-625779855b0e___RS_HL 0486.JPG,plantvillage,lab,Healthy,Healthy:RS_HL 0486
+data/plantvillage/Healthy/5546f7a3-67af-432a-9a09-35f02e6cc741___GH_HL Leaf 216.JPG,plantvillage,lab,Healthy,Healthy:GH_HL Leaf 216
+data/plantvillage/Early_Blight/3f35dad7-734b-46ee-8193-09fd3c8562ff___RS_Erly.B 7600.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7600
+data/plantvillage/Early_Blight/c29f66a1-5df9-4bd7-a6cd-89a0d4a4cba5___RS_Erly.B 9608.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9608
+data/plantvillage/Early_Blight/96f7a84a-cafa-487d-a032-548cfe965bdb___RS_Erly.B 9621.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9621
+data/plantvillage/Early_Blight/680b86dc-14e0-4668-95c8-776193015146___RS_Erly.B 7854.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7854
+data/plantvillage/Early_Blight/ecafc299-bc29-4b5a-9a9b-537362b81ed2___RS_Erly.B 7435.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7435
+data/plantvillage/Early_Blight/96aa2fd2-d8dc-4650-9b56-7b0f25f27edf___RS_Erly.B 7821.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7821
+data/plantvillage/Early_Blight/611a3c58-8a99-401e-9745-592b55bddb85___RS_Erly.B 7679.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7679
+data/plantvillage/Early_Blight/59dbd132-6e6c-4127-a218-b7602cbee670___RS_Erly.B 9449.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9449
+data/plantvillage/Early_Blight/345b59b4-87fd-43a2-9783-fed3e492c4d7___RS_Erly.B 7402.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7402
+data/plantvillage/Early_Blight/239213d8-587b-48a8-bfdf-03157ba8e95d___RS_Erly.B 6385.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 6385
+data/plantvillage/Early_Blight/809042e0-7587-4a45-93e8-e166c07a55ec___RS_Erly.B 7692.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7692
+data/plantvillage/Early_Blight/7bd63940-1890-4263-8c8c-e0c743bb51ce___RS_Erly.B 9487.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9487
+data/plantvillage/Early_Blight/1873e09f-31fd-4612-920a-861fac1af687___RS_Erly.B 7797.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7797
+data/plantvillage/Early_Blight/c63ff9c7-0422-4a71-8727-7c2581fdee6e___RS_Erly.B 9406.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9406
+data/plantvillage/Early_Blight/0cd2270f-87f8-45b5-a4af-19fa34b2acaa___RS_Erly.B 9567.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9567
+data/plantvillage/Early_Blight/e29ee209-e895-434f-9078-db727c5a98dd___RS_Erly.B 9383.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9383
+data/plantvillage/Early_Blight/1c9e0f1a-7314-449c-9482-9059684ac82d___RS_Erly.B 7840.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7840
+data/plantvillage/Early_Blight/2586a260-ecf6-40e8-aa11-4b8a50845575___RS_Erly.B 7833.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7833
+data/plantvillage/Early_Blight/a3611dae-1359-41af-b506-0b012c37a451___RS_Erly.B 7368.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7368
+data/plantvillage/Early_Blight/268590f4-68f6-4de9-968e-a7465b377db4___RS_Erly.B 7614.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7614
+data/plantvillage/Early_Blight/cfe67544-6d8c-48e5-af01-51732c571cb5___RS_Erly.B 8291.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8291
+data/plantvillage/Early_Blight/b0f9d534-0c29-4185-bdd1-43b83dc586f8___RS_Erly.B 6453.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 6453
+data/plantvillage/Early_Blight/669eda4d-aa2e-4d84-9146-c96b047eb70e___RS_Erly.B 6369.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 6369
+data/plantvillage/Early_Blight/9b16a9a4-c99b-4027-a301-4a8969761746___RS_Erly.B 7428.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7428
+data/plantvillage/Early_Blight/0fc8cb27-a10f-4587-a91d-4dbec9f839c7___RS_Erly.B 7715.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7715
+data/plantvillage/Early_Blight/5d998134-578b-481e-9b88-df0134eb567b___RS_Erly.B 7626.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7626
+data/plantvillage/Early_Blight/5d0f4647-6f88-4c84-bacf-d6bc4d469c4d___RS_Erly.B 8411.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8411
+data/plantvillage/Early_Blight/fa5e382e-d1ad-42f9-a4e5-afb343f77a53___RS_Erly.B 9453.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9453
+data/plantvillage/Early_Blight/7621d943-ed1a-4ffb-8fa4-8c12d50424de___RS_Erly.B 8322.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8322
+data/plantvillage/Early_Blight/872ec950-8238-4f73-a366-f72f2f92d3fe___RS_Erly.B 7487.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7487
+data/plantvillage/Early_Blight/3be94535-c405-4f67-99cb-6ffc5f596639___RS_Erly.B 7783.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7783
+data/plantvillage/Early_Blight/8f6562ec-69b1-4d97-85be-844034c98c4d___RS_Erly.B 7569.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7569
+data/plantvillage/Early_Blight/fbc07887-0306-4f85-9de9-ebb68a87753a___RS_Erly.B 7456.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7456
+data/plantvillage/Early_Blight/f8374b63-016a-4b76-9ca8-df348cb44564___RS_Erly.B 7688.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7688
+data/plantvillage/Early_Blight/0378db62-5231-4eff-815d-c0deb0043e80___RS_Erly.B 7464.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7464
+data/plantvillage/Early_Blight/fae08468-fe96-4604-9b86-bfe4c4f06999___RS_Erly.B 9530.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9530
+data/plantvillage/Early_Blight/bb843f3f-a4cd-4a42-94ff-152199d78895___RS_Erly.B 7381.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7381
+data/plantvillage/Early_Blight/1de17623-e625-4a3a-91e8-64973e6d09fd___RS_Erly.B 9577.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9577
+data/plantvillage/Early_Blight/b24b9d32-857b-45ef-be89-552232fadfb2___RS_Erly.B 7763.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7763
+data/plantvillage/Early_Blight/e87f8d6a-9728-4d12-b6b3-e07c77db939b___RS_Erly.B 9576.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9576
+data/plantvillage/Early_Blight/89e0c6b5-8812-4a16-92eb-e63401b50051___RS_Erly.B 9589.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9589
+data/plantvillage/Early_Blight/c410d512-4708-49dd-ba8f-efce2796a3f5___RS_Erly.B 7602.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7602
+data/plantvillage/Early_Blight/40b67c0a-5dd8-435c-80ed-764593d2147a___RS_Erly.B 7577.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7577
+data/plantvillage/Early_Blight/c8dd6713-727e-4811-b951-e70e44d0c483___RS_Erly.B 7817.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7817
+data/plantvillage/Early_Blight/a6abb0cb-af59-4136-a928-f08d5313ae36___RS_Erly.B 7561.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7561
+data/plantvillage/Early_Blight/546af1f7-3d4f-4024-88b1-f981fea7f2dd___RS_Erly.B 9455.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9455
+data/plantvillage/Early_Blight/1d1d79c6-824d-4c48-bd59-c83a5cf29229___RS_Erly.B 9547.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9547
+data/plantvillage/Early_Blight/48dd3efc-400d-4b81-a569-13a51083df58___RS_Erly.B 7718.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7718
+data/plantvillage/Early_Blight/69ec13bc-48bf-4a91-adc0-acb4386979ac___RS_Erly.B 7732.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7732
+data/plantvillage/Early_Blight/264bc13b-2bcd-40f8-ae25-23aef0ccdc64___RS_Erly.B 7589.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7589
+data/plantvillage/Early_Blight/71eb9b0a-a7ea-47a0-8108-71949d74e22d___RS_Erly.B 7557.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7557
+data/plantvillage/Early_Blight/00c5c908-fc25-4710-a109-db143da23112___RS_Erly.B 7778.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7778
+data/plantvillage/Early_Blight/bbaa5bf2-ded0-422a-babb-350da80266a9___RS_Erly.B 7575.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7575
+data/plantvillage/Early_Blight/e592659e-566b-454b-95ba-851f3a53197c___RS_Erly.B 7843.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7843
+data/plantvillage/Early_Blight/bb12ec71-c438-43f5-a077-e5924af2409e___RS_Erly.B 8402.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8402
+data/plantvillage/Early_Blight/ff83852f-65e0-4981-8c66-6b86d34b32c2___RS_Erly.B 9582.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9582
+data/plantvillage/Early_Blight/7de91b8f-80f1-41bc-af89-2cf58a89276b___RS_Erly.B 7805.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7805
+data/plantvillage/Early_Blight/c78483c5-424f-4a5f-aab3-5b909b62a7e6___RS_Erly.B 7541.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7541
+data/plantvillage/Early_Blight/29fb6588-a368-4143-9cdd-8a131f0d50f4___RS_Erly.B 7779.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7779
+data/plantvillage/Early_Blight/8039671d-c264-49aa-bfbc-81fabe24b007___RS_Erly.B 9397.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9397
+data/plantvillage/Early_Blight/efe14014-c5b8-433b-a469-e10ca8d7c551___RS_Erly.B 7499.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7499
+data/plantvillage/Early_Blight/1c057b5e-9ad7-4d51-b407-c60637005a13___RS_Erly.B 7594.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7594
+data/plantvillage/Early_Blight/e3e8305e-a7f1-4ac2-9ed0-7a09660b2fa3___RS_Erly.B 9447.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9447
+data/plantvillage/Early_Blight/a2da7455-c116-4d02-b506-89183f817d78___RS_Erly.B 9371.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9371
+data/plantvillage/Early_Blight/4a063384-a4c0-4acc-a787-8236eb40a54e___RS_Erly.B 8281.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8281
+data/plantvillage/Early_Blight/dc6eeebe-ebc4-406c-b5df-f4861f491db8___RS_Erly.B 9615.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9615
+data/plantvillage/Early_Blight/a6041f09-68f2-4865-ad78-81018617d2c4___RS_Erly.B 6450.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 6450
+data/plantvillage/Early_Blight/f26a0950-0a68-4850-8945-a8aca58da4fa___RS_Erly.B 7505.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7505
+data/plantvillage/Early_Blight/9eec6625-b337-403b-b93c-e809f4e0b8c4___RS_Erly.B 7681.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7681
+data/plantvillage/Early_Blight/3064e2fc-3a71-4a66-8cd1-dc76ebc0c2e6___RS_Erly.B 7345.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7345
+data/plantvillage/Early_Blight/fbb02290-8863-482f-b898-0ea83a2b2fee___RS_Erly.B 9592.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9592
+data/plantvillage/Early_Blight/5ba2c9ec-1d6f-4870-933d-6c9d05833d47___RS_Erly.B 6337.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 6337
+data/plantvillage/Early_Blight/f398656e-d695-4cea-89d8-13490de9264c___RS_Erly.B 7592.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7592
+data/plantvillage/Early_Blight/26e2e7aa-800c-421b-92e8-3e20c5f5757e___RS_Erly.B 7656.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7656
+data/plantvillage/Early_Blight/8a13da5b-4bc2-485a-962d-df8c6634ea00___RS_Erly.B 7519.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7519
+data/plantvillage/Early_Blight/cb0e04ea-9d44-4c3f-b528-d7aa32aa0b85___RS_Erly.B 7850.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7850
+data/plantvillage/Early_Blight/87725f1b-be8c-42b8-8eed-671b0c52276d___RS_Erly.B 7431.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7431
+data/plantvillage/Early_Blight/0012b9d2-2130-4a06-a834-b1f3af34f57e___RS_Erly.B 8389.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8389
+data/plantvillage/Early_Blight/9ba87e80-e0d5-4b50-8f7e-a0957c370320___RS_Erly.B 8324.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8324
+data/plantvillage/Early_Blight/4fd3f0e7-cdd9-4151-8734-5f0ad1f52614___RS_Erly.B 9564.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9564
+data/plantvillage/Early_Blight/7b377a4c-886c-46c5-8a57-a636cc47c9a8___RS_Erly.B 6475.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 6475
+data/plantvillage/Early_Blight/05fab431-cc13-4d6d-b4e1-912e0059c7c1___RS_Erly.B 8349.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8349
+data/plantvillage/Early_Blight/f62b2695-c850-47d4-9e42-e35e5596e729___RS_Erly.B 7777.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7777
+data/plantvillage/Early_Blight/59fbd532-f75e-4c09-be68-3707d1323868___RS_Erly.B 7863.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7863
+data/plantvillage/Early_Blight/e63371a7-2fb1-4446-9fb2-6d679485d2b0___RS_Erly.B 8415.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8415
+data/plantvillage/Early_Blight/da84925b-554a-465d-bdb2-91851f77d5ce___RS_Erly.B 9420.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9420
+data/plantvillage/Early_Blight/d44e75f7-59ac-4296-ac62-893125ddf04e___RS_Erly.B 7856.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7856
+data/plantvillage/Early_Blight/4ce52d04-06f4-4b35-af47-804fdabed996___RS_Erly.B 8254.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8254
+data/plantvillage/Early_Blight/39da27eb-fde9-474b-bf0a-1374901ed82b___RS_Erly.B 7394.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7394
+data/plantvillage/Early_Blight/0f111718-a749-42cf-9495-412f4b51acf0___RS_Erly.B 7482.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7482
+data/plantvillage/Early_Blight/3a2f31aa-b3e1-45a0-b0e6-2ffe3a2538b2___RS_Erly.B 9393.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9393
+data/plantvillage/Early_Blight/eb807a4d-9d14-49a0-af1f-1e26b093edff___RS_Erly.B 7409.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7409
+data/plantvillage/Early_Blight/92df4dc7-e952-4454-9fed-a7897d16903b___RS_Erly.B 6448.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 6448
+data/plantvillage/Early_Blight/15fb19ad-8a5a-4e1b-8ed2-c8d48b006b1d___RS_Erly.B 7674.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7674
+data/plantvillage/Early_Blight/171b6622-c111-4fe9-b3f9-12b12ee0db06___RS_Erly.B 7836.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7836
+data/plantvillage/Early_Blight/be03b7aa-4c59-4ea9-b3cc-33a93a34b402___RS_Erly.B 7742.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7742
+data/plantvillage/Early_Blight/7b085d56-6867-4946-8208-5823afeba034___RS_Erly.B 7384.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7384
+data/plantvillage/Early_Blight/d5690b72-b319-457e-a837-0e38915aab55___RS_Erly.B 7347.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7347
+data/plantvillage/Early_Blight/113562f3-fe24-4b28-9ec8-7ca432bded47___RS_Erly.B 9402.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9402
+data/plantvillage/Early_Blight/c7005da5-2322-44e9-aceb-c6abe348f98c___RS_Erly.B 6490.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 6490
+data/plantvillage/Early_Blight/87b9735b-4018-4b28-b0b3-422a184a6716___RS_Erly.B 7509.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7509
+data/plantvillage/Early_Blight/c8412a1c-4e61-4a35-9538-c3d3a7c46cbe___RS_Erly.B 7383.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7383
+data/plantvillage/Early_Blight/2165f0a3-1265-491d-ad8a-e53102a87e9b___RS_Erly.B 9376.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9376
+data/plantvillage/Early_Blight/21d6c7aa-20d7-4434-9248-e21d073e165a___RS_Erly.B 7495.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7495
+data/plantvillage/Early_Blight/ab52bc97-6e53-4e96-b54c-c883999143ae___RS_Erly.B 7531.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7531
+data/plantvillage/Early_Blight/77b824b4-8d93-44cf-8e8d-b6433fea90b7___RS_Erly.B 6459.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 6459
+data/plantvillage/Early_Blight/8e1c8815-49e0-4be6-a3a5-a426ab6b2445___RS_Erly.B 7822.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7822
+data/plantvillage/Early_Blight/2832ca53-be67-44c0-ac55-eb815bd85fd3___RS_Erly.B 8242.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8242
+data/plantvillage/Early_Blight/4065f166-5f48-4277-9f51-7aa61dbd4b48___RS_Erly.B 8399.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8399
+data/plantvillage/Early_Blight/8714986a-ae97-489a-8259-67411bfa2379___RS_Erly.B 9400.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9400
+data/plantvillage/Early_Blight/9e92ea05-2e0f-42cb-be52-f58745ee9acc___RS_Erly.B 9476.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9476
+data/plantvillage/Early_Blight/66c98dd1-2790-4977-91ee-1b10ca8c687b___RS_Erly.B 8418.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8418
+data/plantvillage/Early_Blight/3271f296-5264-4600-94e0-bde6cf1a2b42___RS_Erly.B 8300.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8300
+data/plantvillage/Early_Blight/ee69b7e2-34d6-455f-97f6-6f5c06216131___RS_Erly.B 7478.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7478
+data/plantvillage/Early_Blight/fc296f63-8cb3-42f1-a9c1-f6ed8e49777c___RS_Erly.B 6400.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 6400
+data/plantvillage/Early_Blight/bde8917a-9b0c-4a7b-8ff1-26f31609d6d7___RS_Erly.B 7750.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7750
+data/plantvillage/Early_Blight/b4d37218-1f10-4232-8eeb-dd4106f0f1af___RS_Erly.B 7702.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7702
+data/plantvillage/Early_Blight/30901e71-e656-4e7e-b3ec-0f813c307b88___RS_Erly.B 9396.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9396
+data/plantvillage/Early_Blight/ba789eab-7c04-4012-b8fa-98106b20b50c___RS_Erly.B 7771.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7771
+data/plantvillage/Early_Blight/4d8cce21-a64f-4953-8c56-218f1611ed29___RS_Erly.B 7372.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7372
+data/plantvillage/Early_Blight/fe167aa5-089e-4295-ad85-071819b7b692___RS_Erly.B 9403.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9403
+data/plantvillage/Early_Blight/ad898210-9539-4fe4-abf0-a568b57ff205___RS_Erly.B 6336.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 6336
+data/plantvillage/Early_Blight/a8b2bbbc-5bef-4ef4-8322-48cde639a9aa___RS_Erly.B 7438.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7438
+data/plantvillage/Early_Blight/eefcdf5d-5207-47ca-916d-0479f010bae8___RS_Erly.B 9482.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9482
+data/plantvillage/Early_Blight/6b9b4ddb-9ac0-4da5-9176-24c325bd6037___RS_Erly.B 7392.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7392
+data/plantvillage/Early_Blight/8405be22-ecbb-4cec-a87d-e0d454b9926d___RS_Erly.B 7847.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7847
+data/plantvillage/Early_Blight/70ef2f0f-3070-443d-b94f-983b87b41791___RS_Erly.B 9385.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9385
+data/plantvillage/Early_Blight/1f4c6478-a39b-4974-aeef-3fcfa5ea69a6___RS_Erly.B 7385.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7385
+data/plantvillage/Early_Blight/3b0f2e65-0005-4b3a-b63c-4ec99b3b92e5___RS_Erly.B 8227.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8227
+data/plantvillage/Early_Blight/366e550d-8604-44cd-b239-325d9e14a4f4___RS_Erly.B 6378.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 6378
+data/plantvillage/Early_Blight/f9f35406-f925-4c34-a1f5-0f73563033a0___RS_Erly.B 7570.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7570
+data/plantvillage/Early_Blight/53bb67c4-0fef-4f13-b4a3-206d06155ffc___RS_Erly.B 6434.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 6434
+data/plantvillage/Early_Blight/06339fe1-154f-4bcb-be91-a29e86e25929___RS_Erly.B 7440.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7440
+data/plantvillage/Early_Blight/987851e7-b309-4b26-94bc-628374aee931___RS_Erly.B 7530.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7530
+data/plantvillage/Early_Blight/8f709c55-ee65-4bb0-9291-6d5d79033c3f___RS_Erly.B 9603.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9603
+data/plantvillage/Early_Blight/38685009-d6e6-4b3a-9957-bf049a210cda___RS_Erly.B 7606.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7606
+data/plantvillage/Early_Blight/deed458f-ec5b-46c7-9658-c005cf90fc11___RS_Erly.B 7480.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7480
+data/plantvillage/Early_Blight/347120f8-e92d-43f7-9ace-196890cec04d___RS_Erly.B 9421.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9421
+data/plantvillage/Early_Blight/01861c93-ea8b-4820-aaa8-cc6003b3e75b___RS_Erly.B 7855.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7855
+data/plantvillage/Early_Blight/11f247d4-f87a-4273-bb9a-317e17916a75___RS_Erly.B 9470.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9470
+data/plantvillage/Early_Blight/b857a91a-c6e2-4d47-a025-5a5c3254e0a2___RS_Erly.B 7662.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7662
+data/plantvillage/Early_Blight/a442ef7e-3c93-45d9-85c0-5fa66fe32bb8___RS_Erly.B 7504.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7504
+data/plantvillage/Early_Blight/0f12e22b-49a9-4d9a-84bc-76bb86ed2a14___RS_Erly.B 9572.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9572
+data/plantvillage/Early_Blight/375a4113-c296-4b3a-897b-da6f4ac660dc___RS_Erly.B 6408.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 6408
+data/plantvillage/Early_Blight/10fedb70-9786-4623-a32b-97a622037511___RS_Erly.B 7796.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7796
+data/plantvillage/Early_Blight/089243e5-f319-4ed2-b10c-603328ff4143___RS_Erly.B 9428.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 9428
+data/plantvillage/Early_Blight/518d8b79-c548-42e4-b78d-f2145eb1d6da___RS_Erly.B 7794.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7794
+data/plantvillage/Early_Blight/dc64e0f0-9f55-4341-b256-649bebd6ca75___RS_Erly.B 7785.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7785
+data/plantvillage/Early_Blight/829d0a5e-326c-4ae6-a3c6-c65297cb5d2f___RS_Erly.B 8338.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 8338
+data/plantvillage/Early_Blight/397ffe67-e784-44d5-ae1a-d1e2990c041b___RS_Erly.B 7637.JPG,plantvillage,lab,Early_Blight,Early_Blight:RS_Erly.B 7637
+data/plantvillage/Late_Blight/231be16a-304a-48ce-a243-0b4d95c59681___GHLB2 Leaf 121.2.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 121
+data/plantvillage/Late_Blight/5c0dc87a-f671-4085-93c5-1454ee859caf___RS_Late.B 6271.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6271
+data/plantvillage/Late_Blight/4206d227-db97-4b7e-8433-042f12d6681b___GHLB2 Leaf 8654.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8654
+data/plantvillage/Late_Blight/1a473cad-42fc-48ca-963c-d438fbca928f___RS_Late.B 5418.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5418
+data/plantvillage/Late_Blight/48246fa8-29ce-4ae2-abc3-586440295cf0___RS_Late.B 5459.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5459
+data/plantvillage/Late_Blight/0f575c94-5c7d-4058-9e65-9046572f9370___GHLB2 Leaf 8956.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8956
+data/plantvillage/Late_Blight/6395653e-67bb-45ae-97cb-9adf19a9ae62___GHLB_PS Leaf 16 Day 8.jpg,plantvillage,lab,Late_Blight,Late_Blight:GHLB_PS Leaf 16 Day 8
+data/plantvillage/Late_Blight/81b4d72b-4124-45d4-b96a-0ec13ca7f376___GHLB2 Leaf 8989.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8989
+data/plantvillage/Late_Blight/7d6954fd-a818-44e6-976e-8c817d729a86___RS_Late.B 4973.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 4973
+data/plantvillage/Late_Blight/4dbcd899-49fd-4292-9931-d5857b5501df___RS_Late.B 6168.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6168
+data/plantvillage/Late_Blight/4eecda06-df95-4222-b91f-b92111dd0b38___RS_Late.B 6070.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6070
+data/plantvillage/Late_Blight/40ad58d9-f6ab-4487-a150-e2da47f733f1___GHLB2 Leaf 8665.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8665
+data/plantvillage/Late_Blight/1e0c01b6-5d75-47ea-b455-c9508882424a___RS_Late.B 6886.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6886
+data/plantvillage/Late_Blight/6ed34168-5646-44ae-8279-1d9ae0f4e962___RS_Late.B 6633.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6633
+data/plantvillage/Late_Blight/8662590c-1a1e-450e-97fa-07fb26faf0c1___GHLB2 Leaf 8919.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8919
+data/plantvillage/Late_Blight/726a5ae7-e33b-4854-a872-71318ec3a493___RS_Late.B 5538.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5538
+data/plantvillage/Late_Blight/36df35a3-3099-48c0-a9c4-e16c1bcb0573___RS_Late.B 6401.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6401
+data/plantvillage/Late_Blight/16984239-2e67-407e-b600-4a3666500534___RS_Late.B 5182.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5182
+data/plantvillage/Late_Blight/09e2fe63-c535-4986-a697-ed275752dc75___GHLB2 Leaf 9030.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 9030
+data/plantvillage/Late_Blight/0a4b3cde-c83a-4c83-b037-010369738152___RS_Late.B 6985.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6985
+data/plantvillage/Late_Blight/5a7059b0-82e8-441e-8d8a-02521d0fa602___GHLB2 Leaf 9058.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 9058
+data/plantvillage/Late_Blight/3a1a6b9e-2a68-421f-adbe-229baf8a6093___GHLB Leaf 2 Day 13.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB Leaf 2 Day 13
+data/plantvillage/Late_Blight/2dab6657-8b94-41ea-b610-74895532efe0___RS_Late.B 5567.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5567
+data/plantvillage/Late_Blight/39535fa7-1b38-4828-9294-da1c24aa33ef___RS_Late.B 6901.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6901
+data/plantvillage/Late_Blight/376c3deb-3feb-425b-a6dd-ce0f95b7c763___RS_Late.B 5413.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5413
+data/plantvillage/Late_Blight/3fcbbb8e-c7dc-4921-b8b6-bc118b877a82___RS_Late.B 5059.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5059
+data/plantvillage/Late_Blight/7973db5e-9bc6-4573-9173-f0ef7f1d62d6___GHLB Leaf 23.4 Day 18.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB Leaf 23.4 Day 18
+data/plantvillage/Late_Blight/64a054b2-4375-48ff-aca3-f823d64d831e___RS_Late.B 7123.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 7123
+data/plantvillage/Late_Blight/06412832-90d3-4713-9e82-f2cca52dadc8___GHLB2 Leaf 8734.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8734
+data/plantvillage/Late_Blight/5c33bdb3-8101-4b21-a9d1-8d490bb22e16___GHLB2 Leaf 8971.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8971
+data/plantvillage/Late_Blight/59c4daa6-f757-4c29-abcd-e1e30153c7e5___GHLB2 Leaf 9073.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 9073
+data/plantvillage/Late_Blight/5875efb8-29a9-4114-859d-d2a0f6ac9738___GHLB2 Leaf 8888.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8888
+data/plantvillage/Late_Blight/0a6203b9-ced0-4934-ae23-4a7d2e2e2fdd___RS_Late.B 6424.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6424
+data/plantvillage/Late_Blight/06f654df-cf43-4fd6-b30f-78425136bc35___GHLB2 Leaf 86.2.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 86
+data/plantvillage/Late_Blight/35c64b94-b2f4-456d-b55f-a376827186c2___GHLB2 Leaf 129.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 129
+data/plantvillage/Late_Blight/64984183-009e-4dba-a25a-f769bab08080___GHLB2 Leaf 8637.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8637
+data/plantvillage/Late_Blight/2ac8376a-3401-4572-af45-6984e6415996___GHLB2 Leaf 8787.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8787
+data/plantvillage/Late_Blight/712f0702-863c-487b-99b7-8e0c5284b91e___RS_Late.B 6363.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6363
+data/plantvillage/Late_Blight/792a3e5e-d5f8-467d-a266-66834b4b7036___GHLB2 Leaf 129.1.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 129
+data/plantvillage/Late_Blight/0b988f87-fdce-40ba-aa09-7e6c9e1d6d30___GHLB_PS Leaf 21 Day 8.jpg,plantvillage,lab,Late_Blight,Late_Blight:GHLB_PS Leaf 21 Day 8
+data/plantvillage/Late_Blight/1eacb98a-d88b-4e86-bbb8-19ec6a4e6c67___GHLB2 Leaf 148.2.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 148
+data/plantvillage/Late_Blight/16ac8a43-f720-4fd9-ac41-016523612f38___RS_Late.B 4898.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 4898
+data/plantvillage/Late_Blight/85550b3b-28a6-4489-ae91-63ea771622ae___RS_Late.B 5539.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5539
+data/plantvillage/Late_Blight/47a38705-6d43-429c-b3f6-54c01f3b08e8___GHLB2 Leaf 8718.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8718
+data/plantvillage/Late_Blight/3d9cca85-96cf-4186-b863-933bbbbc8075___GHLB2 Leaf 117.4.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 117
+data/plantvillage/Late_Blight/100a5029-a6c0-4a07-a40a-f27d6d44cdc9___GHLB2 Leaf 9002.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 9002
+data/plantvillage/Late_Blight/3943d2dd-ffb8-43db-a59d-db7af654aecf___GHLB_PS Leaf 51.1 Day 18.jpg,plantvillage,lab,Late_Blight,Late_Blight:GHLB_PS Leaf 51.1 Day 18
+data/plantvillage/Late_Blight/15f05055-2bb1-45f7-8a39-fce071823266___RS_Late.B 6082.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6082
+data/plantvillage/Late_Blight/8826e278-b47e-4d1a-b7af-3dc1b77ef445___GHLB2 Leaf 8924.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8924
+data/plantvillage/Late_Blight/3f389ac5-10ee-4623-98f2-76b0b479cf3e___RS_Late.B 6785.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6785
+data/plantvillage/Late_Blight/1ec9c019-1594-4916-a04c-65b87eceb8ca___RS_Late.B 6069.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6069
+data/plantvillage/Late_Blight/7b8c983a-c159-4f79-86aa-13c8223155fd___RS_Late.B 5156.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5156
+data/plantvillage/Late_Blight/8061d6e6-8237-4ad3-9270-b6711e3819dd___GHLB2 Leaf 8539.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8539
+data/plantvillage/Late_Blight/083bd43d-7dcb-4f3c-a0ca-6de1f468c9ef___RS_Late.B 5173.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5173
+data/plantvillage/Late_Blight/3be006f1-7062-47da-a375-8fb7fedb77c0___RS_Late.B 6229.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6229
+data/plantvillage/Late_Blight/728bec30-bf7b-40f0-abb5-cf6a78d018da___GHLB2 Leaf 8817.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8817
+data/plantvillage/Late_Blight/82090f30-20fa-4c5e-9bcc-9cfe7d64b56a___RS_Late.B 5395.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5395
+data/plantvillage/Late_Blight/7868d41c-77db-4a0e-90e3-b4a90a17bfdc___RS_Late.B 5401.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5401
+data/plantvillage/Late_Blight/4ae26730-1f0b-4f49-aad5-774f0ed4df35___GHLB2 Leaf 8621.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8621
+data/plantvillage/Late_Blight/82e462d5-14fb-4530-a8b8-c844d1cc5f43___GHLB2 Leaf 8701.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8701
+data/plantvillage/Late_Blight/0566e4e3-675b-4289-9e36-ad199448975b___GHLB2 Leaf 161.2.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 161
+data/plantvillage/Late_Blight/5916c8e5-c9d2-4bc5-b5e7-8812caf890aa___GHLB_PS Leaf 29 Day 12.jpg,plantvillage,lab,Late_Blight,Late_Blight:GHLB_PS Leaf 29 Day 12
+data/plantvillage/Late_Blight/483e8a16-c92f-4f69-a048-54c5f4c3676a___RS_Late.B 6296.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6296
+data/plantvillage/Late_Blight/7609a2a4-654e-4dad-b3e6-1cb4aab89420___RS_Late.B 5633.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5633
+data/plantvillage/Late_Blight/01cd2d73-c741-45a5-9610-a2cea2266b80___GHLB2 Leaf 121.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 121
+data/plantvillage/Late_Blight/09d2deda-7403-489f-b723-5ae5e00e2311___GHLB2 Leaf 8756.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8756
+data/plantvillage/Late_Blight/688d69ca-59a6-4713-b18a-ce7c04ea001e___GHLB2 Leaf 8754.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8754
+data/plantvillage/Late_Blight/77cd23c3-22fe-4d04-babe-89db464dbddd___GHLB Leaf 6 Day 6.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB Leaf 6 Day 6
+data/plantvillage/Late_Blight/1d6d043a-9df9-49ec-9b0f-e40a8e7f409f___RS_Late.B 5287.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5287
+data/plantvillage/Late_Blight/1430346f-f3f2-4766-bd0e-c6f9316851e9___RS_Late.B 6311.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6311
+data/plantvillage/Late_Blight/85a581dc-108b-4ca0-9f34-f8b2baeccbe6___GHLB2 Leaf 8788.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8788
+data/plantvillage/Late_Blight/87815762-3104-4c15-96c5-238ecda66998___GHLB2 Leaf 124.2.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 124
+data/plantvillage/Late_Blight/418ae1d4-d0b0-4bfa-9fa2-2fe0f6841487___RS_Late.B 7105.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 7105
+data/plantvillage/Late_Blight/1a33a1fd-d077-4cf6-84ac-7825176e25d2___GHLB2 Leaf 8969.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8969
+data/plantvillage/Late_Blight/79bc9614-3dc9-49df-b4dd-8fc9a269a7c5___RS_Late.B 5314.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5314
+data/plantvillage/Late_Blight/35baedd2-975e-4a48-b468-5b7203bab631___GHLB2 Leaf 8936.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8936
+data/plantvillage/Late_Blight/06b911b8-1375-4da1-929c-2294c4051ece___GHLB2 Leaf 8883.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8883
+data/plantvillage/Late_Blight/14113767-0c24-4607-97bc-04dccb35a23c___GHLB2 Leaf 8966.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8966
+data/plantvillage/Late_Blight/319d4c9a-92d4-41ff-b351-f3d439233c9e___RS_Late.B 6357.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6357
+data/plantvillage/Late_Blight/005a2c1f-4e15-49e4-9e5c-61dc3ecf9708___RS_Late.B 5096.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5096
+data/plantvillage/Late_Blight/33e05db1-0a59-49f4-b4e3-52b52ca31a14___GHLB2 Leaf 155.1.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 155
+data/plantvillage/Late_Blight/20fe383e-d172-4aee-b76c-d82420e93b0c___RS_Late.B 5519.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5519
+data/plantvillage/Late_Blight/6e93da35-363f-42f4-af65-e6eeb1217058___GHLB2 Leaf 8780.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8780
+data/plantvillage/Late_Blight/861d8b00-57a4-46b0-b51a-09d102dbe119___GHLB_PS Leaf 24 Day 13.jpg,plantvillage,lab,Late_Blight,Late_Blight:GHLB_PS Leaf 24 Day 13
+data/plantvillage/Late_Blight/3de17184-cbec-4397-813e-1bbc3bc5cb6a___RS_Late.B 7050.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 7050
+data/plantvillage/Late_Blight/23c5c930-6830-46c6-8353-616c0b34ae12___RS_Late.B 4947.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 4947
+data/plantvillage/Late_Blight/846005e7-d4ad-49e4-bfce-3aefe50b44e0___RS_Late.B 5158.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5158
+data/plantvillage/Late_Blight/5f473bdb-1899-4877-8d8f-df2e94996d1f___RS_Late.B 6266.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6266
+data/plantvillage/Late_Blight/64e98151-c3bc-417e-bd40-02aac283e3c0___RS_Late.B 6678.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6678
+data/plantvillage/Late_Blight/7e91b898-a643-43f9-bf06-34f364c7d501___GHLB2 Leaf 8632.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8632
+data/plantvillage/Late_Blight/4be2e7c4-f539-41c3-975b-a1ff17b516ec___GHLB_PS Leaf 2 Day 8.jpg,plantvillage,lab,Late_Blight,Late_Blight:GHLB_PS Leaf 2 Day 8
+data/plantvillage/Late_Blight/5ad08690-9554-4978-a7b5-1a5cc0c1fb72___RS_Late.B 4988.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 4988
+data/plantvillage/Late_Blight/62f69013-1152-47ee-8d37-b8252f4c1328___RS_Late.B 6149.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6149
+data/plantvillage/Late_Blight/4241f3aa-06c9-433a-91ef-97061a03dfae___RS_Late.B 4985.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 4985
+data/plantvillage/Late_Blight/126e12d3-3d51-4ba6-861f-e6ed09ee951f___GHLB2 Leaf 9021.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 9021
+data/plantvillage/Late_Blight/86a3f3b6-660b-4711-b509-4654d0b5c2fa___RS_Late.B 5007.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5007
+data/plantvillage/Late_Blight/259d42ea-6860-4a01-82e5-2a81c75892b7___RS_Late.B 5112.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5112
+data/plantvillage/Late_Blight/1a9a2cbf-75f3-4dd9-93ef-3d3c58e97d06___GHLB2 Leaf 8666.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8666
+data/plantvillage/Late_Blight/06a7cfd9-0992-4020-8a11-79249d657c0c___GHLB2 Leaf 131.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 131
+data/plantvillage/Late_Blight/4f12205c-0035-48ed-b6b0-56f347fe2ab0___RS_Late.B 5085.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5085
+data/plantvillage/Late_Blight/65911337-0263-4cfa-a89d-9acf3f5eb39a___GHLB2 Leaf 8681.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8681
+data/plantvillage/Late_Blight/48c55974-9fe9-4f4b-94f7-c8cd127d1e05___GHLB_PS Leaf 23.7 Day 13.jpg,plantvillage,lab,Late_Blight,Late_Blight:GHLB_PS Leaf 23.7 Day 13
+data/plantvillage/Late_Blight/82dc2c64-2489-49d7-b199-f8c6a04c1649___RS_Late.B 6282.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6282
+data/plantvillage/Late_Blight/674b9176-bd0c-47be-94a3-7c973d2ecdab___GHLB_PS leaf 28.1 Day 12.jpg,plantvillage,lab,Late_Blight,Late_Blight:GHLB_PS leaf 28.1 Day 12
+data/plantvillage/Late_Blight/2798c7ea-850e-49a7-b304-3114c60c6baf___RS_Late.B 7141.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 7141
+data/plantvillage/Late_Blight/06913075-dad1-4047-b5a2-74fe680efa3b___RS_Late.B 6048.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6048
+data/plantvillage/Late_Blight/80143d7f-db3e-4ed8-8a20-647dc0caa908___GHLB2 Leaf 78.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 78
+data/plantvillage/Late_Blight/4fc2334d-be0a-45f9-970d-be7a0f6a6c2a___RS_Late.B 6268.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6268
+data/plantvillage/Late_Blight/413905e7-1e22-4f6a-a74f-2346c050a037___GHLB2 Leaf 8763.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8763
+data/plantvillage/Late_Blight/4435bd64-52a2-46cf-a319-a13a28571b03___GHLB2 Leaf 157.2.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 157
+data/plantvillage/Late_Blight/781e93a9-2059-42de-8075-658033a6abf7___RS_Late.B 6075.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6075
+data/plantvillage/Late_Blight/4710d5cd-08f7-44ae-91c1-99204f1c135b___RS_Late.B 6132.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6132
+data/plantvillage/Late_Blight/12d62ed2-a145-4400-824d-3e4d5f64418a___RS_Late.B 6586.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6586
+data/plantvillage/Late_Blight/7b343a4c-5fbc-40f6-83da-ccae49ebd5fb___GHLB_PS Leaf 35 Day 13.jpg,plantvillage,lab,Late_Blight,Late_Blight:GHLB_PS Leaf 35 Day 13
+data/plantvillage/Late_Blight/44c7f2c3-bec1-4f42-b9b6-946c2b92f50e___RS_Late.B 6261.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6261
+data/plantvillage/Late_Blight/08931b78-a571-41bf-b5b4-6904ffbbe8b7___GHLB Leaf 1.1 Day 12.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB Leaf 1.1 Day 12
+data/plantvillage/Late_Blight/78122366-5c83-4d3f-97b0-b7135181738b___GHLB Leaf 1 Day 1.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB Leaf 1 Day 1
+data/plantvillage/Late_Blight/16257155-3d28-49cd-bb96-c188e946c4ec___RS_Late.B 4935.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 4935
+data/plantvillage/Late_Blight/079f7695-a60e-4a35-a1f3-fbe71cf19126___GHLB2 Leaf 8783.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8783
+data/plantvillage/Late_Blight/511ea2f2-d960-4cb2-9a0d-e049646a022e___RS_Late.B 5083.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5083
+data/plantvillage/Late_Blight/078a999d-6e6f-427e-a1e6-80b4d2df2bae___GHLB2 Leaf 9029.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 9029
+data/plantvillage/Late_Blight/5c5a2e9e-e460-403e-9d8a-f961b1f10935___RS_Late.B 5133.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5133
+data/plantvillage/Late_Blight/1c8bf271-8455-42f5-8e9f-8a92418116f9___GHLB2 Leaf 9066.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 9066
+data/plantvillage/Late_Blight/36193f11-7789-416d-b0dd-0cae49f74836___GHLB Leaf 23.2 Day 18.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB Leaf 23.2 Day 18
+data/plantvillage/Late_Blight/0d7a68e9-3df0-4ef8-88f7-c0a202725c5d___RS_Late.B 6787.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6787
+data/plantvillage/Late_Blight/4d9faab5-238d-42a1-ae87-5e3d0a38a3e2___RS_Late.B 5033.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5033
+data/plantvillage/Late_Blight/1e65a5c4-ba60-4edb-817c-c281d5a5e364___GHLB2 Leaf 9079.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 9079
+data/plantvillage/Late_Blight/4efe334c-09f2-44ec-b2cf-37dc45c693d2___GHLB2 Leaf 90.1.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 90
+data/plantvillage/Late_Blight/5114b264-0305-4447-b560-6ca1826d3420___GHLB_PS Leaf 24.1 Day 16.jpg,plantvillage,lab,Late_Blight,Late_Blight:GHLB_PS Leaf 24.1 Day 16
+data/plantvillage/Late_Blight/04540250-4926-47a6-9240-e047a04befc5___GHLB2 Leaf 9019.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 9019
+data/plantvillage/Late_Blight/54eb17df-c42a-472f-91ec-92784e034115___GHLB2 Leaf 8910.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8910
+data/plantvillage/Late_Blight/0893ac69-4004-4577-b4aa-496983116208___GHLB2 Leaf 8738.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8738
+data/plantvillage/Late_Blight/389ecffc-2ab0-4c7e-9f03-d6d4695d4f6a___RS_Late.B 5117.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5117
+data/plantvillage/Late_Blight/5a701380-2b9d-4dc4-9376-56ff0361a1dd___GHLB2 Leaf 8871.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8871
+data/plantvillage/Late_Blight/4fa3fe36-2c59-4860-be94-508954283149___RS_Late.B 5495.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5495
+data/plantvillage/Late_Blight/4cdd9b83-3ec9-40af-b402-a96827e69b84___GHLB2 Leaf 8554.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8554
+data/plantvillage/Late_Blight/467da834-4482-4233-90d1-03bc4dc60966___RS_Late.B 5136.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5136
+data/plantvillage/Late_Blight/27dcd39d-4a04-472c-ab97-84f2d57b6245___GHLB2 Leaf 83.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 83
+data/plantvillage/Late_Blight/207dbe65-2d3b-4820-ab49-2a1db65f9bec___RS_Late.B 5485.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 5485
+data/plantvillage/Late_Blight/189f8e47-0892-4c82-b0b9-7a51b6c83a04___RS_Late.B 7193.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 7193
+data/plantvillage/Late_Blight/87f47869-cd63-494b-813d-4355a11c01d5___RS_Late.B 6629.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6629
+data/plantvillage/Late_Blight/62ba6c10-2e36-48ed-9f8b-f26cd5884666___GHLB2 Leaf 8828.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8828
+data/plantvillage/Late_Blight/80817b48-d9dc-4b29-b6ac-1f7bb58e3d00___RS_Late.B 4833.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 4833
+data/plantvillage/Late_Blight/1db51a76-0e89-45c6-8f00-9262c1c7732e___GHLB2ES Leaf 139.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2ES Leaf 139
+data/plantvillage/Late_Blight/7e92fb02-314e-4cad-a30d-e478b216bce4___RS_Late.B 6890.JPG,plantvillage,lab,Late_Blight,Late_Blight:RS_Late.B 6890
+data/plantvillage/Late_Blight/3521d97f-cc36-4581-a2fa-f999f34a6558___GHLB2 Leaf 152.1.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 152
+data/plantvillage/Late_Blight/0ed7d5f6-9394-4ae7-87db-3de58f469263___GHLB2 Leaf 8732.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8732
+data/plantvillage/Late_Blight/5c25c249-5433-47b9-be00-6cd2d31f48c1___GHLB2 Leaf 8753.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 8753
+data/plantvillage/Late_Blight/58465768-148b-40c6-8534-e695e9c517d5___GHLB2 Leaf 95.1.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 95
+data/plantvillage/Late_Blight/25bfd51b-6db7-42a5-9990-992f52a0c836___GHLB2 Leaf 61.JPG,plantvillage,lab,Late_Blight,Late_Blight:GHLB2 Leaf 61
+data/plantdoc/train/Healthy/0000.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:0
+data/plantdoc/train/Healthy/0001.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:1
+data/plantdoc/train/Healthy/0002.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:2
+data/plantdoc/train/Healthy/0003.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:3
+data/plantdoc/train/Healthy/0004.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:4
+data/plantdoc/train/Healthy/0005.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:5
+data/plantdoc/train/Healthy/0006.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:6
+data/plantdoc/train/Healthy/0007.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:7
+data/plantdoc/train/Healthy/0008.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:8
+data/plantdoc/train/Healthy/0009.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:9
+data/plantdoc/train/Healthy/0010.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:10
+data/plantdoc/train/Healthy/0011.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:11
+data/plantdoc/train/Healthy/0012.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:12
+data/plantdoc/train/Healthy/0013.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:13
+data/plantdoc/train/Healthy/0014.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:14
+data/plantdoc/train/Healthy/0016.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:16
+data/plantdoc/train/Healthy/0017.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:17
+data/plantdoc/train/Healthy/0018.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:18
+data/plantdoc/train/Healthy/0019.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:19
+data/plantdoc/train/Healthy/0020.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:20
+data/plantdoc/train/Healthy/0021.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:21
+data/plantdoc/train/Healthy/0022.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:22
+data/plantdoc/train/Healthy/0023.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:23
+data/plantdoc/train/Healthy/0024.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:24
+data/plantdoc/train/Healthy/0026.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:26
+data/plantdoc/train/Healthy/0027.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:27
+data/plantdoc/train/Healthy/0028.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:28
+data/plantdoc/train/Healthy/0029.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:29
+data/plantdoc/train/Healthy/0030.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:30
+data/plantdoc/train/Healthy/0031.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:31
+data/plantdoc/train/Healthy/0032.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:32
+data/plantdoc/train/Healthy/0033.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:33
+data/plantdoc/train/Healthy/0034.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:34
+data/plantdoc/train/Healthy/0035.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:35
+data/plantdoc/train/Healthy/0036.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:36
+data/plantdoc/train/Healthy/0037.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:37
+data/plantdoc/train/Healthy/0038.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:38
+data/plantdoc/train/Healthy/0039.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:39
+data/plantdoc/train/Healthy/0040.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:40
+data/plantdoc/train/Healthy/0041.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:41
+data/plantdoc/train/Healthy/0042.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:42
+data/plantdoc/train/Healthy/0043.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:43
+data/plantdoc/train/Healthy/0044.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:44
+data/plantdoc/train/Healthy/0045.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:45
+data/plantdoc/train/Healthy/0046.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:46
+data/plantdoc/train/Healthy/0047.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:47
+data/plantdoc/train/Healthy/0048.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:48
+data/plantdoc/train/Healthy/0049.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:49
+data/plantdoc/train/Healthy/0050.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:50
+data/plantdoc/train/Healthy/0051.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:51
+data/plantdoc/train/Healthy/0052.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:52
+data/plantdoc/train/Healthy/0053.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:53
+data/plantdoc/train/Healthy/0054.jpg,plantdoc,train,Healthy,plantdoc:train:Healthy:54
+data/plantdoc/train/Early_Blight/0000.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:0
+data/plantdoc/train/Early_Blight/0001.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:1
+data/plantdoc/train/Early_Blight/0002.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:2
+data/plantdoc/train/Early_Blight/0003.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:3
+data/plantdoc/train/Early_Blight/0006.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:6
+data/plantdoc/train/Early_Blight/0007.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:7
+data/plantdoc/train/Early_Blight/0008.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:8
+data/plantdoc/train/Early_Blight/0009.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:9
+data/plantdoc/train/Early_Blight/0010.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:10
+data/plantdoc/train/Early_Blight/0012.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:12
+data/plantdoc/train/Early_Blight/0014.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:14
+data/plantdoc/train/Early_Blight/0015.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:15
+data/plantdoc/train/Early_Blight/0016.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:16
+data/plantdoc/train/Early_Blight/0017.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:17
+data/plantdoc/train/Early_Blight/0018.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:18
+data/plantdoc/train/Early_Blight/0019.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:19
+data/plantdoc/train/Early_Blight/0020.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:20
+data/plantdoc/train/Early_Blight/0021.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:21
+data/plantdoc/train/Early_Blight/0022.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:22
+data/plantdoc/train/Early_Blight/0023.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:23
+data/plantdoc/train/Early_Blight/0024.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:24
+data/plantdoc/train/Early_Blight/0025.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:25
+data/plantdoc/train/Early_Blight/0026.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:26
+data/plantdoc/train/Early_Blight/0028.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:28
+data/plantdoc/train/Early_Blight/0029.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:29
+data/plantdoc/train/Early_Blight/0030.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:30
+data/plantdoc/train/Early_Blight/0031.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:31
+data/plantdoc/train/Early_Blight/0032.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:32
+data/plantdoc/train/Early_Blight/0033.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:33
+data/plantdoc/train/Early_Blight/0034.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:34
+data/plantdoc/train/Early_Blight/0035.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:35
+data/plantdoc/train/Early_Blight/0036.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:36
+data/plantdoc/train/Early_Blight/0037.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:37
+data/plantdoc/train/Early_Blight/0038.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:38
+data/plantdoc/train/Early_Blight/0039.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:39
+data/plantdoc/train/Early_Blight/0040.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:40
+data/plantdoc/train/Early_Blight/0041.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:41
+data/plantdoc/train/Early_Blight/0042.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:42
+data/plantdoc/train/Early_Blight/0045.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:45
+data/plantdoc/train/Early_Blight/0046.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:46
+data/plantdoc/train/Early_Blight/0047.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:47
+data/plantdoc/train/Early_Blight/0048.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:48
+data/plantdoc/train/Early_Blight/0049.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:49
+data/plantdoc/train/Early_Blight/0050.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:50
+data/plantdoc/train/Early_Blight/0051.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:51
+data/plantdoc/train/Early_Blight/0052.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:52
+data/plantdoc/train/Early_Blight/0053.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:53
+data/plantdoc/train/Early_Blight/0054.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:54
+data/plantdoc/train/Early_Blight/0055.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:55
+data/plantdoc/train/Early_Blight/0056.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:56
+data/plantdoc/train/Early_Blight/0057.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:57
+data/plantdoc/train/Early_Blight/0058.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:58
+data/plantdoc/train/Early_Blight/0059.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:59
+data/plantdoc/train/Early_Blight/0060.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:60
+data/plantdoc/train/Early_Blight/0061.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:61
+data/plantdoc/train/Early_Blight/0062.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:62
+data/plantdoc/train/Early_Blight/0063.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:63
+data/plantdoc/train/Early_Blight/0064.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:64
+data/plantdoc/train/Early_Blight/0065.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:65
+data/plantdoc/train/Early_Blight/0066.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:66
+data/plantdoc/train/Early_Blight/0067.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:67
+data/plantdoc/train/Early_Blight/0068.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:68
+data/plantdoc/train/Early_Blight/0069.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:69
+data/plantdoc/train/Early_Blight/0070.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:70
+data/plantdoc/train/Early_Blight/0071.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:71
+data/plantdoc/train/Early_Blight/0072.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:72
+data/plantdoc/train/Early_Blight/0073.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:73
+data/plantdoc/train/Early_Blight/0074.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:74
+data/plantdoc/train/Early_Blight/0075.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:75
+data/plantdoc/train/Early_Blight/0076.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:76
+data/plantdoc/train/Early_Blight/0077.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:77
+data/plantdoc/train/Early_Blight/0078.jpg,plantdoc,train,Early_Blight,plantdoc:train:Early_Blight:78
+data/plantdoc/train/Late_Blight/0000.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:0
+data/plantdoc/train/Late_Blight/0001.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:1
+data/plantdoc/train/Late_Blight/0003.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:3
+data/plantdoc/train/Late_Blight/0004.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:4
+data/plantdoc/train/Late_Blight/0005.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:5
+data/plantdoc/train/Late_Blight/0006.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:6
+data/plantdoc/train/Late_Blight/0007.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:7
+data/plantdoc/train/Late_Blight/0009.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:9
+data/plantdoc/train/Late_Blight/0011.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:11
+data/plantdoc/train/Late_Blight/0012.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:12
+data/plantdoc/train/Late_Blight/0013.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:13
+data/plantdoc/train/Late_Blight/0014.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:14
+data/plantdoc/train/Late_Blight/0015.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:15
+data/plantdoc/train/Late_Blight/0016.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:16
+data/plantdoc/train/Late_Blight/0017.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:17
+data/plantdoc/train/Late_Blight/0018.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:18
+data/plantdoc/train/Late_Blight/0020.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:20
+data/plantdoc/train/Late_Blight/0021.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:21
+data/plantdoc/train/Late_Blight/0022.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:22
+data/plantdoc/train/Late_Blight/0023.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:23
+data/plantdoc/train/Late_Blight/0024.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:24
+data/plantdoc/train/Late_Blight/0025.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:25
+data/plantdoc/train/Late_Blight/0026.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:26
+data/plantdoc/train/Late_Blight/0027.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:27
+data/plantdoc/train/Late_Blight/0028.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:28
+data/plantdoc/train/Late_Blight/0029.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:29
+data/plantdoc/train/Late_Blight/0030.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:30
+data/plantdoc/train/Late_Blight/0031.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:31
+data/plantdoc/train/Late_Blight/0033.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:33
+data/plantdoc/train/Late_Blight/0035.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:35
+data/plantdoc/train/Late_Blight/0037.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:37
+data/plantdoc/train/Late_Blight/0038.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:38
+data/plantdoc/train/Late_Blight/0039.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:39
+data/plantdoc/train/Late_Blight/0040.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:40
+data/plantdoc/train/Late_Blight/0041.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:41
+data/plantdoc/train/Late_Blight/0042.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:42
+data/plantdoc/train/Late_Blight/0043.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:43
+data/plantdoc/train/Late_Blight/0044.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:44
+data/plantdoc/train/Late_Blight/0045.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:45
+data/plantdoc/train/Late_Blight/0046.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:46
+data/plantdoc/train/Late_Blight/0047.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:47
+data/plantdoc/train/Late_Blight/0048.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:48
+data/plantdoc/train/Late_Blight/0049.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:49
+data/plantdoc/train/Late_Blight/0050.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:50
+data/plantdoc/train/Late_Blight/0051.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:51
+data/plantdoc/train/Late_Blight/0052.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:52
+data/plantdoc/train/Late_Blight/0053.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:53
+data/plantdoc/train/Late_Blight/0054.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:54
+data/plantdoc/train/Late_Blight/0055.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:55
+data/plantdoc/train/Late_Blight/0056.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:56
+data/plantdoc/train/Late_Blight/0057.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:57
+data/plantdoc/train/Late_Blight/0058.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:58
+data/plantdoc/train/Late_Blight/0059.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:59
+data/plantdoc/train/Late_Blight/0060.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:60
+data/plantdoc/train/Late_Blight/0061.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:61
+data/plantdoc/train/Late_Blight/0062.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:62
+data/plantdoc/train/Late_Blight/0063.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:63
+data/plantdoc/train/Late_Blight/0064.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:64
+data/plantdoc/train/Late_Blight/0065.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:65
+data/plantdoc/train/Late_Blight/0066.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:66
+data/plantdoc/train/Late_Blight/0067.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:67
+data/plantdoc/train/Late_Blight/0068.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:68
+data/plantdoc/train/Late_Blight/0069.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:69
+data/plantdoc/train/Late_Blight/0070.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:70
+data/plantdoc/train/Late_Blight/0071.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:71
+data/plantdoc/train/Late_Blight/0072.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:72
+data/plantdoc/train/Late_Blight/0073.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:73
+data/plantdoc/train/Late_Blight/0074.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:74
+data/plantdoc/train/Late_Blight/0075.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:75
+data/plantdoc/train/Late_Blight/0076.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:76
+data/plantdoc/train/Late_Blight/0077.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:77
+data/plantdoc/train/Late_Blight/0078.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:78
+data/plantdoc/train/Late_Blight/0079.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:79
+data/plantdoc/train/Late_Blight/0080.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:80
+data/plantdoc/train/Late_Blight/0081.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:81
+data/plantdoc/train/Late_Blight/0082.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:82
+data/plantdoc/train/Late_Blight/0083.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:83
+data/plantdoc/train/Late_Blight/0084.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:84
+data/plantdoc/train/Late_Blight/0085.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:85
+data/plantdoc/train/Late_Blight/0086.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:86
+data/plantdoc/train/Late_Blight/0087.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:87
+data/plantdoc/train/Late_Blight/0088.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:88
+data/plantdoc/train/Late_Blight/0089.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:89
+data/plantdoc/train/Late_Blight/0090.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:90
+data/plantdoc/train/Late_Blight/0091.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:91
+data/plantdoc/train/Late_Blight/0092.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:92
+data/plantdoc/train/Late_Blight/0093.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:93
+data/plantdoc/train/Late_Blight/0094.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:94
+data/plantdoc/train/Late_Blight/0095.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:95
+data/plantdoc/train/Late_Blight/0096.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:96
+data/plantdoc/train/Late_Blight/0097.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:97
+data/plantdoc/train/Late_Blight/0098.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:98
+data/plantdoc/train/Late_Blight/0099.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:99
+data/plantdoc/train/Late_Blight/0100.jpg,plantdoc,train,Late_Blight,plantdoc:train:Late_Blight:100
+data/plantdoc/test/Healthy/0000.jpg,plantdoc,test,Healthy,plantdoc:test:Healthy:0
+data/plantdoc/test/Healthy/0001.jpg,plantdoc,test,Healthy,plantdoc:test:Healthy:1
+data/plantdoc/test/Healthy/0002.jpg,plantdoc,test,Healthy,plantdoc:test:Healthy:2
+data/plantdoc/test/Healthy/0003.jpg,plantdoc,test,Healthy,plantdoc:test:Healthy:3
+data/plantdoc/test/Healthy/0004.jpg,plantdoc,test,Healthy,plantdoc:test:Healthy:4
+data/plantdoc/test/Healthy/0005.jpg,plantdoc,test,Healthy,plantdoc:test:Healthy:5
+data/plantdoc/test/Healthy/0006.jpg,plantdoc,test,Healthy,plantdoc:test:Healthy:6
+data/plantdoc/test/Healthy/0007.jpg,plantdoc,test,Healthy,plantdoc:test:Healthy:7
+data/plantdoc/test/Early_Blight/0000.jpg,plantdoc,test,Early_Blight,plantdoc:test:Early_Blight:0
+data/plantdoc/test/Early_Blight/0001.jpg,plantdoc,test,Early_Blight,plantdoc:test:Early_Blight:1
+data/plantdoc/test/Early_Blight/0002.jpg,plantdoc,test,Early_Blight,plantdoc:test:Early_Blight:2
+data/plantdoc/test/Early_Blight/0003.jpg,plantdoc,test,Early_Blight,plantdoc:test:Early_Blight:3
+data/plantdoc/test/Early_Blight/0004.jpg,plantdoc,test,Early_Blight,plantdoc:test:Early_Blight:4
+data/plantdoc/test/Early_Blight/0005.jpg,plantdoc,test,Early_Blight,plantdoc:test:Early_Blight:5
+data/plantdoc/test/Early_Blight/0006.jpg,plantdoc,test,Early_Blight,plantdoc:test:Early_Blight:6
+data/plantdoc/test/Early_Blight/0007.jpg,plantdoc,test,Early_Blight,plantdoc:test:Early_Blight:7
+data/plantdoc/test/Early_Blight/0008.jpg,plantdoc,test,Early_Blight,plantdoc:test:Early_Blight:8
+data/plantdoc/test/Late_Blight/0000.jpg,plantdoc,test,Late_Blight,plantdoc:test:Late_Blight:0
+data/plantdoc/test/Late_Blight/0001.jpg,plantdoc,test,Late_Blight,plantdoc:test:Late_Blight:1
+data/plantdoc/test/Late_Blight/0002.jpg,plantdoc,test,Late_Blight,plantdoc:test:Late_Blight:2
+data/plantdoc/test/Late_Blight/0003.jpg,plantdoc,test,Late_Blight,plantdoc:test:Late_Blight:3
+data/plantdoc/test/Late_Blight/0005.jpg,plantdoc,test,Late_Blight,plantdoc:test:Late_Blight:5
+data/plantdoc/test/Late_Blight/0006.jpg,plantdoc,test,Late_Blight,plantdoc:test:Late_Blight:6
+data/plantdoc/test/Late_Blight/0007.jpg,plantdoc,test,Late_Blight,plantdoc:test:Late_Blight:7
+data/plantdoc/test/Late_Blight/0008.jpg,plantdoc,test,Late_Blight,plantdoc:test:Late_Blight:8
+data/plantdoc/test/Late_Blight/0009.jpg,plantdoc,test,Late_Blight,plantdoc:test:Late_Blight:9

@@ -1,0 +1,98 @@
+TOMATO LEAF DISEASE SCREENING - REPORT METRICS
+Generated: 2026-11-10 15:50   seed=42
+========================================================================
+
+DATA
+  Lab (PlantVillage): 450 images, 445 unique leaf IDs  Healthy=150, Early_Blight=150, Late_Blight=150
+  Field (PlantDoc, never used for training): 245 images  Healthy=61, Early_Blight=81, Late_Blight=103
+  Cross-validation: 5-fold StratifiedGroupKFold grouped by leaf ID
+  Leaf IDs shared between train and test across all folds: 0  (must be 0)
+
+MODELS
+  LDA baseline : Linear Discriminant Analysis on 4 colour features
+                 (non-green fraction, mean hue, mean saturation, mean excess-green)
+  CNN          : MobileNetV2 alpha=0.35, ImageNet init, 6 head + 4 fine-tune epochs, 224x224 input
+
+========================================================================
+LDA
+========================================================================
+  Lab   (PlantVillage, 5-fold CV)  Accuracy  0.713 ± 0.030
+                                       Macro-F1  0.709 ± 0.034
+  Field (PlantDoc, each fold's model)  Accuracy  0.353 ± 0.009
+                                       Macro-F1  0.234 ± 0.015
+  Lab -> field accuracy drop: 36.1 percentage points
+
+  Per-class recall, lab (pooled out-of-fold predictions):
+    Healthy        0.867
+    Early_Blight   0.640
+    Late_Blight    0.633
+  Confusion matrix, lab (pooled out-of-fold, rows = true class):
+    true \ pred          Healthy  Early_Blight   Late_Blight
+    Healthy                  130            15             5
+    Early_Blight              28            96            26
+    Late_Blight               20            35            95
+
+  Best fold model (highest lab F1) on field images:
+    accuracy all PlantDoc = 0.343 (n=245); official PlantDoc test split only = 0.269 (n=26)
+  Per-class recall, field:
+    Healthy        0.000
+    Early_Blight   0.111
+    Late_Blight    0.728
+  Confusion matrix, field (rows = true class):
+    true \ pred          Healthy  Early_Blight   Late_Blight
+    Healthy                    0             9            52
+    Early_Blight               5             9            67
+    Late_Blight                7            21            75
+
+========================================================================
+CNN
+========================================================================
+  Lab   (PlantVillage, 5-fold CV)  Accuracy  0.927 ± 0.017
+                                       Macro-F1  0.926 ± 0.017
+  Field (PlantDoc, each fold's model)  Accuracy  0.491 ± 0.012
+                                       Macro-F1  0.347 ± 0.023
+  Lab -> field accuracy drop: 43.5 percentage points
+
+  Per-class recall, lab (pooled out-of-fold predictions):
+    Healthy        0.993
+    Early_Blight   0.880
+    Late_Blight    0.907
+  Confusion matrix, lab (pooled out-of-fold, rows = true class):
+    true \ pred          Healthy  Early_Blight   Late_Blight
+    Healthy                  149             1             0
+    Early_Blight               3           132            15
+    Late_Blight                1            13           136
+
+  Best fold model (highest lab F1) on field images:
+    accuracy all PlantDoc = 0.502 (n=245); official PlantDoc test split only = 0.423 (n=26)
+  Per-class recall, field:
+    Healthy        0.000
+    Early_Blight   0.556
+    Late_Blight    0.757
+  Confusion matrix, field (rows = true class):
+    true \ pred          Healthy  Early_Blight   Late_Blight
+    Healthy                    0            16            45
+    Early_Blight               0            45            36
+    Late_Blight                0            25            78
+
+========================================================================
+MEDIAN INFERENCE LATENCY (single image, batch size 1, CPU, 100 runs after 10 warm-up)
+  Machine: macOS-26.7.2-arm64-arm-64bit / arm
+  LDA (feature extraction + predict): 1.82 ms
+  CNN (preprocess + forward pass)   : 4.34 ms
+  (On-phone TF.js latency is shown inside the app after each scan.)
+
+========================================================================
+SEVERITY BANDS on lab images (% non-green leaf pixels; <10 Low, 10-30 Medium, >=30 High)
+  Sanity check only - PlantVillage has no severity labels.
+    band          Low  Medium  High
+    label                          
+    Healthy       101      44     5
+    Early_Blight   44      72    34
+    Late_Blight    42      43    65
+
+Notes
+  * Mean ± SD uses the sample SD (ddof=1) across folds.
+  * PlantVillage has no official leaf ID; it is derived from the source photo code in each
+    file name (repeat shots '.1/.2' and augmentation suffixes are merged).
+  * Small sample sizes -> treat numbers as indicative, not definitive.

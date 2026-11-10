@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tomato Leaf Check</title>
+  <meta name="description" content="Offline tomato leaf screening: Healthy, Early Blight, Late Blight">
+  <meta name="theme-color" content="#15803d">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <style>
+    /* ---- Design tokens (Material / shadcn inspired, minimalist) ---- */
+    :root {
+      --bg: #fafaf9;            /* off-white page */
+      --card: #ffffff;          /* stark white cards */
+      --border: #e7e5e4;
+      --text: #1c1917;
+      --muted: #78716c;
+      --primary: #15803d;       /* solid green primary */
+      --primary-hover: #166534;
+      --primary-fg: #ffffff;
+      --low: #15803d;    --low-bg: #dcfce7;
+      --med: #b45309;    --med-bg: #fef3c7;
+      --high: #b91c1c;   --high-bg: #fee2e2;
+      --radius-sm: 8px;
+      --radius: 12px;
+      --shadow: 0 1px 2px rgba(0,0,0,.04), 0 2px 8px rgba(0,0,0,.06);
+      --font: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Sans Devanagari", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      font-size: 16px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 560px; margin: 0 auto; padding: 16px 16px 48px; }
+
+    /* ---- Header ---- */
+    header { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 8px 0 16px; }
+    h1 { font-size: 20px; font-weight: 650; letter-spacing: -0.01em; margin: 0; }
+    .subtitle { color: var(--muted); font-size: 14px; margin: 2px 0 0; }
+    .pill {
+      display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
+      font-size: 12px; font-weight: 500; padding: 4px 10px;
+      border: 1px solid var(--border); border-radius: 999px; background: var(--card); color: var(--muted);
+    }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+    .pill.ok .dot { background: var(--low); }
+    .pill.warn .dot { background: var(--med); }
+
+    /* ---- Cards ---- */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    .card h2 { font-size: 16px; font-weight: 600; margin: 0 0 12px; }
+    .hidden { display: none !important; }
+
+    /* ---- Camera viewport ---- */
+    .viewport {
+      position: relative; width: 100%; aspect-ratio: 1 / 1;
+      border-radius: var(--radius-sm); overflow: hidden; background: #f5f5f4;
+      display: grid; place-items: center;
+    }
+    .viewport video, .viewport canvas { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .viewport .placeholder { color: var(--muted); font-size: 14px; text-align: center; padding: 24px; }
+    .guide { position: absolute; inset: 12%; border: 2px dashed rgba(255,255,255,.85); border-radius: var(--radius); pointer-events: none; }
+
+    /* ---- Buttons ---- */
+    .actions { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+    button, .btn {
+      font: inherit; font-size: 15px; font-weight: 550;
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      height: 44px; padding: 0 16px; border-radius: var(--radius-sm);
+      border: 1px solid transparent; cursor: pointer; transition: background .15s, box-shadow .15s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .btn-primary { background: var(--primary); color: var(--primary-fg); flex: 1; }
+    .btn-primary:hover { background: var(--primary-hover); }
+    .btn-primary:disabled { opacity: .5; cursor: not-allowed; }
+    .btn-outline { background: var(--card); color: var(--text); border-color: var(--border); }
+    .btn-outline:hover { background: #f5f5f4; }
+    button:focus-visible, .btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+    input[type=file] { display: none; }
+
+    /* ---- Result ---- */
+    .label { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; }
+    .sev-box { margin-top: 12px; }
+    .k { font-size: 12px; color: var(--muted); }
+    .bars { margin-top: 8px; display: grid; gap: 8px; }
+    .bar-row { display: grid; grid-template-columns: 110px 1fr 44px; align-items: center; gap: 8px; font-size: 13px; }
+    .bar { height: 8px; background: #f5f5f4; border-radius: 999px; overflow: hidden; }
+    .bar > span { display: block; height: 100%; background: var(--primary); border-radius: 999px; }
+    .bar-row .pct { text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+    .stat { border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 10px 12px; }
+    .stat .v { font-size: 16px; font-weight: 600; }
+
+    /* ---- Expandable technical stats (native <details>) ---- */
+    .tech { margin-top: 16px; border-top: 1px solid var(--border); }
+    .tech summary {
+      list-style: none; cursor: pointer; user-select: none;
+      display: flex; align-items: center; justify-content: space-between;
+      min-height: 44px; padding-top: 12px; font-size: 14px; font-weight: 500; color: var(--muted);
+      -webkit-tap-highlight-color: transparent;
+    }
+    .tech summary::-webkit-details-marker { display: none; }
+    .tech summary::after {
+      content: ""; width: 7px; height: 7px; margin: 0 4px 4px 0;
+      border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
+      transform: rotate(45deg); transition: transform .2s ease;
+    }
+    .tech[open] summary::after { transform: rotate(-135deg); margin-bottom: 0; }
+    .tech summary:hover { color: var(--text); }
+    .tech summary:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; border-radius: 4px; }
+    .tech-body { display: grid; gap: 12px; padding-top: 8px; }
+    .tech .toggle-row { margin-top: 0; }
+    .badge { display: inline-block; font-size: 13px; font-weight: 600; padding: 2px 10px; border-radius: 999px; }
+    .badge.Low { color: var(--low); background: var(--low-bg); }
+    .badge.Medium { color: var(--med); background: var(--med-bg); }
+    .badge.High { color: var(--high); background: var(--high-bg); }
+    .notice {
+      margin-top: 12px; font-size: 14px; padding: 10px 12px; border-radius: var(--radius-sm);
+      background: var(--med-bg); color: #78350f;
+    }
+    .toggle-row { display: flex; align-items: center; gap: 8px; margin-top: 12px; font-size: 14px; color: var(--muted); }
+
+    /* ---- Advisory ---- */
+    .adv-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 8px; }
+    .adv-head h2 { margin: 0; }
+    .segmented { display: inline-flex; border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 2px; background: #f5f5f4; }
+    .segmented button { height: 32px; padding: 0 12px; font-size: 13px; border-radius: 6px; background: transparent; color: var(--muted); }
+    .segmented button[aria-pressed=true] { background: var(--card); color: var(--text); box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+    .adv-title { font-weight: 600; margin: 4px 0 6px; }
+    .adv-list { margin: 0; padding-left: 20px; }
+    .adv-list li { margin: 4px 0; }
+    .consult {
+      margin-top: 14px; padding: 12px; border-radius: var(--radius-sm);
+      border: 1px solid #bbf7d0; background: #f0fdf4; font-size: 14px;
+    }
+    .consult strong { display: block; margin-bottom: 2px; }
+    .source { margin-top: 10px; font-size: 12px; color: var(--muted); }
+    .source a { color: inherit; }
+    footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 24px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <h1>Tomato Leaf Check</h1>
+      <p class="subtitle">Healthy · Early Blight · Late Blight</p>
+    </div>
+    <span id="status" class="pill"><span class="dot"></span><span id="status-text">Loading…</span></span>
+  </header>
+
+  <section class="card">
+    <h2>1. Photograph one leaf</h2>
+    <div class="viewport" id="viewport">
+      <p class="placeholder" id="placeholder">Place a single leaf inside the frame, in daylight, against a plain background.</p>
+      <video id="video" playsinline muted class="hidden"></video>
+      <canvas id="preview" width="224" height="224" class="hidden"></canvas>
+      <canvas id="overlay" width="224" height="224" class="hidden"></canvas>
+      <div class="guide hidden" id="guide"></div>
+    </div>
+    <div class="actions">
+      <button class="btn btn-outline" id="btn-camera" type="button">Start camera</button>
+      <button class="btn btn-primary" id="btn-scan" type="button" disabled>Scan leaf</button>
+      <label class="btn btn-outline" for="file">Upload photo</label>
+      <input id="file" type="file" accept="image/*">
+    </div>
+  </section>
+
+  <section class="card hidden" id="result-card" aria-live="polite">
+    <h2>2. Result</h2>
+    <div class="label" id="res-label">–</div>
+    <div class="stat sev-box"><div class="k">Severity</div><div class="v" id="res-sev">–</div></div>
+    <div class="notice hidden" id="res-warn">Not sure. Retake closer, in even light, one leaf in frame.</div>
+    <details class="tech">
+      <summary>View technical stats</summary>
+      <div class="tech-body">
+        <div>
+          <div class="k">Confidence by class</div>
+          <div class="bars" id="res-bars"></div>
+        </div>
+        <div class="stat"><div class="k">On-device inference</div><div class="v" id="res-ms">–</div></div>
+        <label class="toggle-row"><input type="checkbox" id="chk-overlay"> Highlight non-green areas on photo</label>
+      </div>
+    </details>
+  </section>
+
+  <section class="card hidden" id="advisory-card">
+    <div class="adv-head">
+      <h2 id="adv-heading">3. Advice</h2>
+      <div class="segmented" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">English</button>
+        <button type="button" data-lang="hi" aria-pressed="false">हिन्दी</button>
+      </div>
+    </div>
+    <div id="adv-body"></div>
+  </section>
+
+  <footer>Runs fully on your phone. No photo leaves the device. Screening aid only, not a diagnosis.</footer>
+</main>
+<script src="vendor/tf.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

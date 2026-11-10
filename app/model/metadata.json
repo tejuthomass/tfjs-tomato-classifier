@@ -1,0 +1,36 @@
+{
+  "labels": [
+    "Healthy",
+    "Early_Blight",
+    "Late_Blight"
+  ],
+  "input_size": 224,
+  "preprocessing": "x / 127.5 - 1 (centre-crop square, RGB)",
+  "severity": {
+    "leaf_min_sat": 0.2,
+    "leaf_min_val": 0.1,
+    "green_hue": [
+      65,
+      170
+    ],
+    "bands": [
+      {
+        "below": 10,
+        "name": "Low"
+      },
+      {
+        "below": 30,
+        "name": "Medium"
+      },
+      {
+        "below": 101,
+        "name": "High"
+      }
+    ]
+  },
+  "metrics": {
+    "lab_accuracy": 0.927,
+    "field_accuracy": 0.491
+  },
+  "exported": "2026-11-10"
+}

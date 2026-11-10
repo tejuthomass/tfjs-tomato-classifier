@@ -1,0 +1,13 @@
+# Python environment and local tooling (recreated by scripts/setup.py)
+.venv/
+.tools/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Downloaded image datasets (~20 MB, re-downloaded by scripts/setup.py).
+# data/manifest.csv stays tracked: it records the exact image sample used for the report.
+data/plantvillage/
+data/plantdoc/
