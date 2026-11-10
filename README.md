@@ -14,6 +14,7 @@ tomato_project/
 │   └── evaluate_models.py    # cross-validation, LDA vs CNN, field test, latency, TF.js export
 ├── data/                     # downloaded images + manifest.csv (created by setup.py)
 ├── metrics/                  # report_metrics.txt + fold_results.csv (created by evaluate_models.py)
+├── report_figures/           # app screenshots for the report (see report_figures/README.md)
 └── app/                      # the offline web app (PWA)
     ├── index.html            # page + all CSS
     ├── app.js                # camera, TF.js inference, severity, advisory card
@@ -59,7 +60,10 @@ What it does:
 
 Outputs:
 
-* `metrics/report_metrics.txt` has Mean ± SD accuracy and macro-F1 across folds (lab and field), per-class recall, confusion matrices, median latency, and severity-band counts.
+* `metrics/report_metrics.txt` has:
+  * Mean ± SD accuracy and macro-F1 across the 5 folds, for lab and field.
+  * Per-class precision, recall and F1, plus confusion matrices. The lab tables pool all 5 folds' out-of-fold predictions. The **field tables come from a single fold model**, the fold with the highest lab F1.
+  * Median latency and severity-band counts.
 * `metrics/fold_results.csv` has the raw per-fold numbers, if you want to make charts.
 * `app/model/` is the best CNN fold (highest lab F1) exported to TensorFlow.js, plus `metadata.json`.
 
@@ -133,9 +137,11 @@ This is a coarse colour heuristic, not a calibrated measurement. Severity is not
 ## Notes for the methodology / limitations section
 
 * **Leaf IDs.** PlantVillage does not publish physical leaf IDs. The ID is taken from the source photo code in each file name (e.g. `GH_HL Leaf 259.1` → `GH_HL Leaf 259`). Repeat shots (`.1`, `.2`) and augmented copies (`_flipLR`, …) are merged into one group.
-* **Field set.** All PlantDoc tomato images for these 3 classes, from both its `train` and `test` folders, form the field set. None are used for training. The report also gives accuracy on PlantDoc's official `test` split alone (n ≈ 27).
+* **Field set.** All PlantDoc tomato images for these 3 classes, from both its `train` and `test` folders, form the field set. None are used for training. The field set has 245 images: 61 Healthy, 81 Early Blight, 103 Late Blight. The report also gives accuracy on PlantDoc's official `test` split alone (n = 26: 8 Healthy, 9 Early Blight, 9 Late Blight). The repository lists 27 test images, but one link returned 404 during download. `data/manifest.csv` lists exactly the images that were evaluated.
 * **Sample size.** The sample is small (450 lab images), so present the numbers as indicative and quote the SDs.
 * **Model selection.** The exported app model is the best of the 5 fold models. The CV mean ± SD is the unbiased estimate to report, not the best fold.
+* **Single-fold vs 5-fold field results.** The field confusion matrices and per-class field metrics come from **one** fold model: CNN fold 4 and LDA fold 5. On all 245 field images, those single models score **50.2 %** (CNN) and **34.3 %** (LDA). The **5-fold mean** field accuracies are **49.1 % ± 1.2** (CNN) and **35.3 % ± 0.9** (LDA). Quote the 5-fold means as the headline result and label the matrices as single-fold.
+* **Per-class precision / F1.** These are calculated directly from the confusion matrices. The CNN field model never predicts Healthy, so its Healthy precision is undefined (0/0) and is reported as n/a, not 0.
 * **Fixed epochs.** There was no hyper-parameter tuning on test folds. Epochs are fixed (6 head + 4 fine-tune).
 * **Random seed.** Seed 42 is used throughout. Re-running gives very similar, though not bit-identical, CNN numbers.
 

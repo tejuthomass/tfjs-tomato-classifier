@@ -16,29 +16,34 @@ MODELS
 ========================================================================
 LDA
 ========================================================================
-  Lab   (PlantVillage, 5-fold CV)  Accuracy  0.713 ± 0.030
-                                       Macro-F1  0.709 ± 0.034
-  Field (PlantDoc, each fold's model)  Accuracy  0.353 ± 0.009
-                                       Macro-F1  0.234 ± 0.015
-  Lab -> field accuracy drop: 36.1 percentage points
+  5-FOLD RESULTS (mean ± SD over the 5 fold models)
+  Lab   (PlantVillage, n=450, 5-fold CV)      Accuracy  0.713 ± 0.030
+                                              Macro-F1  0.709 ± 0.034
+  Field (PlantDoc, n=245, all 5 fold models)  Accuracy  0.353 ± 0.009
+                                              Macro-F1  0.234 ± 0.015
+  Lab -> field accuracy drop (5-fold means): 36.1 percentage points
 
-  Per-class recall, lab (pooled out-of-fold predictions):
-    Healthy        0.867
-    Early_Blight   0.640
-    Late_Blight    0.633
-  Confusion matrix, lab (pooled out-of-fold, rows = true class):
+  Per-class metrics, lab (pooled out-of-fold predictions from all 5 folds, n=450):
+    class          precision  recall      F1  support
+    Healthy            0.730   0.867   0.793      150
+    Early_Blight       0.658   0.640   0.649      150
+    Late_Blight        0.754   0.633   0.688      150
+  Confusion matrix, lab (pooled out-of-fold, all 5 folds; rows = true class):
     true \ pred          Healthy  Early_Blight   Late_Blight
     Healthy                  130            15             5
     Early_Blight              28            96            26
     Late_Blight               20            35            95
 
-  Best fold model (highest lab F1) on field images:
-    accuracy all PlantDoc = 0.343 (n=245); official PlantDoc test split only = 0.269 (n=26)
-  Per-class recall, field:
-    Healthy        0.000
-    Early_Blight   0.111
-    Late_Blight    0.728
-  Confusion matrix, field (rows = true class):
+  SINGLE-FOLD FIELD RESULTS (fold 5 model only - NOT a 5-fold average)
+  Fold 5 had the highest lab macro-F1. On PlantDoc this one model scores:
+    accuracy all PlantDoc = 0.343 (n=245)   [5-fold mean above: 0.353]
+    accuracy official PlantDoc test split only = 0.269 (n=26)
+  Per-class metrics, field (fold 5 model only, n=245):
+    class          precision  recall      F1  support
+    Healthy            0.000   0.000   0.000       61
+    Early_Blight       0.231   0.111   0.150       81
+    Late_Blight        0.387   0.728   0.505      103
+  Confusion matrix, field (fold 5 model only; rows = true class):
     true \ pred          Healthy  Early_Blight   Late_Blight
     Healthy                    0             9            52
     Early_Blight               5             9            67
@@ -47,29 +52,34 @@ LDA
 ========================================================================
 CNN
 ========================================================================
-  Lab   (PlantVillage, 5-fold CV)  Accuracy  0.927 ± 0.017
-                                       Macro-F1  0.926 ± 0.017
-  Field (PlantDoc, each fold's model)  Accuracy  0.491 ± 0.012
-                                       Macro-F1  0.347 ± 0.023
-  Lab -> field accuracy drop: 43.5 percentage points
+  5-FOLD RESULTS (mean ± SD over the 5 fold models)
+  Lab   (PlantVillage, n=450, 5-fold CV)      Accuracy  0.927 ± 0.017
+                                              Macro-F1  0.926 ± 0.017
+  Field (PlantDoc, n=245, all 5 fold models)  Accuracy  0.491 ± 0.012
+                                              Macro-F1  0.347 ± 0.023
+  Lab -> field accuracy drop (5-fold means): 43.5 percentage points
 
-  Per-class recall, lab (pooled out-of-fold predictions):
-    Healthy        0.993
-    Early_Blight   0.880
-    Late_Blight    0.907
-  Confusion matrix, lab (pooled out-of-fold, rows = true class):
+  Per-class metrics, lab (pooled out-of-fold predictions from all 5 folds, n=450):
+    class          precision  recall      F1  support
+    Healthy            0.974   0.993   0.983      150
+    Early_Blight       0.904   0.880   0.892      150
+    Late_Blight        0.901   0.907   0.904      150
+  Confusion matrix, lab (pooled out-of-fold, all 5 folds; rows = true class):
     true \ pred          Healthy  Early_Blight   Late_Blight
     Healthy                  149             1             0
     Early_Blight               3           132            15
     Late_Blight                1            13           136
 
-  Best fold model (highest lab F1) on field images:
-    accuracy all PlantDoc = 0.502 (n=245); official PlantDoc test split only = 0.423 (n=26)
-  Per-class recall, field:
-    Healthy        0.000
-    Early_Blight   0.556
-    Late_Blight    0.757
-  Confusion matrix, field (rows = true class):
+  SINGLE-FOLD FIELD RESULTS (fold 4 model only - NOT a 5-fold average)
+  Fold 4 had the highest lab macro-F1. On PlantDoc this one model scores:
+    accuracy all PlantDoc = 0.502 (n=245)   [5-fold mean above: 0.491]
+    accuracy official PlantDoc test split only = 0.423 (n=26)
+  Per-class metrics, field (fold 4 model only, n=245):
+    class          precision  recall      F1  support
+    Healthy              n/a   0.000   0.000       61
+    Early_Blight       0.523   0.556   0.539       81
+    Late_Blight        0.491   0.757   0.595      103
+  Confusion matrix, field (fold 4 model only; rows = true class):
     true \ pred          Healthy  Early_Blight   Late_Blight
     Healthy                    0            16            45
     Early_Blight               0            45            36
@@ -93,6 +103,13 @@ SEVERITY BANDS on lab images (% non-green leaf pixels; <10 Low, 10-30 Medium, >=
 
 Notes
   * Mean ± SD uses the sample SD (ddof=1) across folds.
+  * Per-class precision/recall/F1 are computed directly from the confusion matrix shown below
+    each table. Lab values pool all out-of-fold predictions, so they are not a mean of per-fold
+    values. 'n/a' precision = the class was never predicted (0/0, undefined).
+    Per-class F1 = 2TP / (2TP + FP + FN).
+  * Field confusion matrices and per-class field metrics come from ONE fold model (the fold with
+    the highest lab macro-F1). The 5-fold field figures are the mean ± SD lines at the top of
+    each model's section.
   * PlantVillage has no official leaf ID; it is derived from the source photo code in each
     file name (repeat shots '.1/.2' and augmentation suffixes are merged).
   * Small sample sizes -> treat numbers as indicative, not definitive.

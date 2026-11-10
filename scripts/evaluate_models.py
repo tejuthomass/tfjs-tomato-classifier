@@ -32,7 +32,7 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
-from sklearn.metrics import accuracy_score, confusion_matrix, f1_score, recall_score
+from sklearn.metrics import accuracy_score, confusion_matrix, f1_score
 from sklearn.model_selection import StratifiedGroupKFold
 import tensorflow as tf
 
@@ -161,9 +161,49 @@ def fmt_cm(cm):
     return "\n".join("    " + l for l in lines)
 
 
-def fmt_recall(y_true, y_pred):
-    r = recall_score(y_true, y_pred, average=None, labels=range(len(CLASSES)), zero_division=0)
-    return "\n".join(f"    {c:<14} {v:.3f}" for c, v in zip(CLASSES, r))
+def fmt_per_class(cm):
+    """Per-class precision, recall and F1, derived exactly from a confusion matrix (rows = true class).
+    A class that is never predicted has undefined precision (0/0) and is shown as n/a.
+    F1 = 2TP / (2TP + FP + FN), which stays defined in that case."""
+    lines = [f"    {'class':<14}{'precision':>10}{'recall':>8}{'F1':>8}{'support':>9}"]
+    for i, c in enumerate(CLASSES):
+        tp, n_pred, n_true = cm[i, i], cm[:, i].sum(), cm[i, :].sum()
+        prec = f"{tp / n_pred:.3f}" if n_pred else "n/a"
+        rec = f"{tp / n_true:.3f}" if n_true else "n/a"
+        f1 = f"{2 * tp / (n_pred + n_true):.3f}" if n_pred + n_true else "n/a"
+        lines.append(f"    {c:<14}{prec:>10}{rec:>8}{f1:>8}{n_true:>9}")
+    return "\n".join(lines)
+
+
+def model_section(name, r, folds, cm_lab, cm_field, best_fold, acc_test_split, n_test_split):
+    """Report lines for one model. r = that model's rows of fold_results; cm_* have rows = true class."""
+    n_lab, n_field = int(cm_lab.sum()), int(cm_field.sum())
+    acc_field_single = np.trace(cm_field) / n_field
+    L = ["\n" + "=" * 72, name, "=" * 72]
+    L.append(f"  5-FOLD RESULTS (mean ± SD over the {folds} fold models)")
+    lab_lbl = f"  Lab   (PlantVillage, n={n_lab}, {folds}-fold CV)"
+    field_lbl = f"  Field (PlantDoc, n={n_field}, all {folds} fold models)"
+    pad = max(len(lab_lbl), len(field_lbl)) + 2
+    L.append(f"{lab_lbl:<{pad}}Accuracy  {ms(r.lab_acc)}")
+    L.append(f"{'':<{pad}}Macro-F1  {ms(r.lab_f1)}")
+    L.append(f"{field_lbl:<{pad}}Accuracy  {ms(r.field_acc)}")
+    L.append(f"{'':<{pad}}Macro-F1  {ms(r.field_f1)}")
+    L.append(f"  Lab -> field accuracy drop (5-fold means): "
+             f"{100 * (r.lab_acc.mean() - r.field_acc.mean()):.1f} percentage points")
+    L.append(f"\n  Per-class metrics, lab (pooled out-of-fold predictions from all {folds} folds, n={n_lab}):")
+    L.append(fmt_per_class(cm_lab))
+    L.append(f"  Confusion matrix, lab (pooled out-of-fold, all {folds} folds; rows = true class):")
+    L.append(fmt_cm(cm_lab))
+    L.append(f"\n  SINGLE-FOLD FIELD RESULTS (fold {best_fold} model only - NOT a {folds}-fold average)")
+    L.append(f"  Fold {best_fold} had the highest lab macro-F1. On PlantDoc this one model scores:")
+    L.append(f"    accuracy all PlantDoc = {acc_field_single:.3f} (n={n_field})   "
+             f"[5-fold mean above: {r.field_acc.mean():.3f}]")
+    L.append(f"    accuracy official PlantDoc test split only = {acc_test_split:.3f} (n={n_test_split})")
+    L.append(f"  Per-class metrics, field (fold {best_fold} model only, n={n_field}):")
+    L.append(fmt_per_class(cm_field))
+    L.append(f"  Confusion matrix, field (fold {best_fold} model only; rows = true class):")
+    L.append(fmt_cm(cm_field))
+    return L
 
 
 def ms(values):
@@ -196,7 +236,7 @@ def main():
     cv = StratifiedGroupKFold(n_splits=args.folds, shuffle=True, random_state=args.seed)
     rows, overlap = [], 0
     oof = {"LDA": np.zeros(len(lab), int), "CNN": np.zeros(len(lab), int)}
-    best = {"LDA": (-1, None, None), "CNN": (-1, None, None)}  # (lab F1, model, field predictions)
+    best = {"LDA": (-1, None, None, None), "CNN": (-1, None, None, None)}  # (lab F1, model, field preds, fold)
 
     for k, (tr, te) in enumerate(cv.split(X_lab, y_lab, groups), 1):
         overlap += len(set(groups[tr]) & set(groups[te]))
@@ -214,7 +254,7 @@ def main():
             rows.append(dict(fold=k, model=name, lab_acc=acc, lab_f1=f1, field_acc=facc, field_f1=ff1,
                              n_train=len(tr), n_test=len(te)))
             if f1 > best[name][0]:
-                best[name] = (f1, model, pred_field)
+                best[name] = (f1, model, pred_field, k)
             print(f"fold {k} {name}: lab acc {acc:.3f} F1 {f1:.3f} | field acc {facc:.3f} F1 {ff1:.3f}")
 
     res = pd.DataFrame(rows)
@@ -253,29 +293,13 @@ def main():
       f"{args.epochs_fine} fine-tune epochs, {IMG}x{IMG} input")
 
     for name in ["LDA", "CNN"]:
-        r = res[res.model == name]
-        w("\n" + "=" * 72)
-        w(f"{name}")
-        w("=" * 72)
-        w(f"  Lab   (PlantVillage, {args.folds}-fold CV)  Accuracy  {ms(r.lab_acc)}")
-        w(f"                                       Macro-F1  {ms(r.lab_f1)}")
-        w(f"  Field (PlantDoc, each fold's model)  Accuracy  {ms(r.field_acc)}")
-        w(f"                                       Macro-F1  {ms(r.field_f1)}")
-        w(f"  Lab -> field accuracy drop: {100 * (r.lab_acc.mean() - r.field_acc.mean()):.1f} percentage points")
-        w(f"\n  Per-class recall, lab (pooled out-of-fold predictions):")
-        w(fmt_recall(y_lab, oof[name]))
-        w(f"  Confusion matrix, lab (pooled out-of-fold, rows = true class):")
-        w(fmt_cm(confusion_matrix(y_lab, oof[name], labels=range(len(CLASSES)))))
         pf = best[name][2]
-        a_all, _ = scores(y_field, pf)
         a_test, _ = scores(y_field[test_only], pf[test_only])
-        w(f"\n  Best fold model (highest lab F1) on field images:")
-        w(f"    accuracy all PlantDoc = {a_all:.3f} (n={len(field)}); "
-          f"official PlantDoc test split only = {a_test:.3f} (n={test_only.sum()})")
-        w(f"  Per-class recall, field:")
-        w(fmt_recall(y_field, pf))
-        w(f"  Confusion matrix, field (rows = true class):")
-        w(fmt_cm(confusion_matrix(y_field, pf, labels=range(len(CLASSES)))))
+        out.extend(model_section(
+            name, res[res.model == name], args.folds,
+            cm_lab=confusion_matrix(y_lab, oof[name], labels=range(len(CLASSES))),
+            cm_field=confusion_matrix(y_field, pf, labels=range(len(CLASSES))),
+            best_fold=best[name][3], acc_test_split=a_test, n_test_split=int(test_only.sum())))
 
     w("\n" + "=" * 72)
     w("MEDIAN INFERENCE LATENCY (single image, batch size 1, CPU, 100 runs after 10 warm-up)")
@@ -290,6 +314,13 @@ def main():
     w("    " + sev_table.to_string().replace("\n", "\n    "))
     w("\nNotes")
     w("  * Mean ± SD uses the sample SD (ddof=1) across folds.")
+    w("  * Per-class precision/recall/F1 are computed directly from the confusion matrix shown below")
+    w("    each table. Lab values pool all out-of-fold predictions, so they are not a mean of per-fold")
+    w("    values. 'n/a' precision = the class was never predicted (0/0, undefined).")
+    w("    Per-class F1 = 2TP / (2TP + FP + FN).")
+    w("  * Field confusion matrices and per-class field metrics come from ONE fold model (the fold with")
+    w("    the highest lab macro-F1). The 5-fold field figures are the mean ± SD lines at the top of")
+    w("    each model's section.")
     w("  * PlantVillage has no official leaf ID; it is derived from the source photo code in each")
     w("    file name (repeat shots '.1/.2' and augmentation suffixes are merged).")
     w("  * Small sample sizes -> treat numbers as indicative, not definitive.")
